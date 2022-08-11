@@ -42,6 +42,8 @@ docker-compose up
   - [Find the Duplicate Number]
   - [List Cycle](https://github.com/mintwzy/algorithms-ts/tree/main/src/List/ListCycle)
   - [Reverse List]
+- [Sort](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Sort)
+  - [Group Anagrams](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Sort/GroupAnagrams)
 - [Tree](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree)
   - [Balanced binary tree](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree/IsBalanced)
   - [Construct from level order traversal](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree/ConstructFromLevelOrder)

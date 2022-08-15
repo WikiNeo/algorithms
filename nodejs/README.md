@@ -42,8 +42,9 @@ docker-compose up
   - [Find the Duplicate Number]
   - [List Cycle](https://github.com/mintwzy/algorithms-ts/tree/main/src/List/ListCycle)
   - [Reverse List]
-- [Set]
-  - [Valid Sudoku]
+- [Set](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Set)
+  - [Longest Consecutive Sequence]
+  - [Valid Sudoku](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Set/ValidSudoku)
 - [Sort](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Sort)
   - [Group Anagrams](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Sort/GroupAnagrams)
 - [Tree](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree)

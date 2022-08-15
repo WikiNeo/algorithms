@@ -63,11 +63,11 @@ docker-compose up
   - [Subtree]
 - [Trie](https://github.com/mintwzy/algorithms-ts/tree/main/src/Trie)
   - [Design Add and Search Words Data Structure]
-- [Two Pointers]
+- [Two Pointers](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers)
   - [Container with Most Water] 
   - [Three Sum]
-  - [Two Sum II]
-  - [Valid Palindrome]
+  - [Two Sum II](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/TwoSumII)
+  - [Valid Palindrome](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/ValidPalindrome)
 
 ## Graphviz
 

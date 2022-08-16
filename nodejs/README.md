@@ -65,7 +65,7 @@ docker-compose up
   - [Design Add and Search Words Data Structure]
 - [Two Pointers](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers)
   - [Container with Most Water] 
-  - [Three Sum]
+  - [Three Sum](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/ThreeSum)
   - [Two Sum II](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/TwoSumII)
   - [Valid Palindrome](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/ValidPalindrome)
 

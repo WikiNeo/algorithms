@@ -64,7 +64,9 @@ docker-compose up
 - [Trie](https://github.com/mintwzy/algorithms-ts/tree/main/src/Trie)
   - [Design Add and Search Words Data Structure]
 - [Two Pointers](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers)
-  - [Container with Most Water] 
+  - [Best Time to Buy and Sell Stock]
+  - [Container with Most Water](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/ContainerWithMostWater)
+  - [Longest Substring without Repeating Characters]
   - [Three Sum](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/ThreeSum)
   - [Two Sum II](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/TwoSumII)
   - [Valid Palindrome](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/ValidPalindrome)

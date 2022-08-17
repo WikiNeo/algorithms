@@ -1,10 +1,10 @@
-class ListNode<T> {
-  value: T | undefined
-  next: ListNode<T> | null
+class ListNode {
+  value: number
+  next: ListNode
 
-  constructor(value?: T, next?: ListNode<T> | null) {
+  constructor(value: number, next: ListNode) {
     this.value = value
-    this.next = (next === undefined ? null : next)
+    this.next = next;
   }
 }
 

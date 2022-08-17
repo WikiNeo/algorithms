@@ -62,14 +62,14 @@ docker-compose up
   - [Level order traversal](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree/LevelOrderTraversal)
   - [Maximum depth](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree/MaxDepth)
   - [Right side view]
-  - [Same tree]
-  - [Subtree]
+  - [Same tree](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/SameTree)
+  - [Subtree](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/SubTree)
 - [Trie](https://github.com/mintwzy/algorithms-ts/tree/main/src/Trie)
-  - [Design Add and Search Words Data Structure]
+  - [Design Add and Search Words Data Structure](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Trie/AddAndSearchWords)
 - [Two Pointers](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers)
-  - [Best Time to Buy and Sell Stock]
+  - [Best Time to Buy and Sell Stock](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/BestTimeToBuyAndSellStock)
   - [Container with Most Water](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/ContainerWithMostWater)
-  - [Longest Substring without Repeating Characters]
+  - [Longest Substring without Repeating Characters](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/LongestSubstringWithoutRepeatingCharacters)
   - [Three Sum](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/ThreeSum)
   - [Two Sum II](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/TwoSumII)
   - [Valid Palindrome](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/ValidPalindrome)

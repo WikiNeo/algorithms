@@ -1,12 +1,12 @@
 import BaseTreeAlgorithm from "../BaseTreeAlgorithm";
-import TreeNode from "../TreeNode";
+import TreeNodeT from "../TreeNode";
 
 class ConstructFromLevelOrder<T> extends BaseTreeAlgorithm<T>{
   exec(values: (T | null)[]){
-    const queue: (TreeNode<T> | null)[] = []
+    const queue: (TreeNodeT<T> | null)[] = []
 
     const insertValue = (value: T | null) => {
-      const node: (TreeNode<T> | null) = (value === null ? null : new TreeNode<T>(value))
+      const node: (TreeNodeT<T> | null) = (value === null ? null : new TreeNodeT<T>(value))
 
       if(this.tree.root === null) {
         this.tree.root = node

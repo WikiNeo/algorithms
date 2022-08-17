@@ -1,14 +1,14 @@
 import BaseTreeAlgorithm from "../BaseTreeAlgorithm";
-import TreeNode from "../TreeNode";
+import TreeNodeT from "../TreeNode";
 
 class InvertBinaryTree<T> extends BaseTreeAlgorithm<T>{
 
-  exec(node: TreeNode<T> | null): TreeNode<T> | null{
+  exec(node: TreeNodeT<T> | null): TreeNodeT<T> | null{
     if(node === null){
       return null;
     }
 
-    const temp: TreeNode<T> | null = node.left;
+    const temp: TreeNodeT<T> | null = node.left;
     node.left = node.right;
     node.right = temp;
 

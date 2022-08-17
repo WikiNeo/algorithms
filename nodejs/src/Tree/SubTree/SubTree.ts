@@ -1,6 +1,6 @@
 import BaseTreeAlgorithm from "../BaseTreeAlgorithm";
 import Tree from "../Tree";
-import TreeNode from "../TreeNode";
+import TreeNodeT from "../TreeNode";
 
 class SubTree<T> extends BaseTreeAlgorithm<T>{
   tree2: Tree<T>
@@ -11,14 +11,14 @@ class SubTree<T> extends BaseTreeAlgorithm<T>{
   }
 
   exec(): boolean {
-    const isIdentical = (node1: TreeNode<T>, node2: TreeNode<T>): boolean => {
+    const isIdentical = (node1: TreeNodeT<T>, node2: TreeNodeT<T>): boolean => {
       let identicalRes: boolean  = true;
 
-      const travel = (node1: TreeNode<T> | null, node2: TreeNode<T> | null) => {
+      const travel = (node1: TreeNodeT<T> | null, node2: TreeNodeT<T> | null) => {
         if(identicalRes === false) return;
         if(node1 === null && node2 === null) return
 
-        if(node1 === null || node2 === null || node1.value !== node2.value){
+        if(node1 === null || node2 === null || node1.val !== node2.val){
           identicalRes = false;
           return
         }
@@ -33,12 +33,12 @@ class SubTree<T> extends BaseTreeAlgorithm<T>{
 
     let subtreeRes: boolean = false;
 
-    const travelMain = (node1: TreeNode<T> | null) => {
+    const travelMain = (node1: TreeNodeT<T> | null) => {
       if(subtreeRes === true) return;
       if(node1 === null) return;
 
       // @ts-ignore
-      if( node1.value === this.tree2.root.value && isIdentical(node1, this.tree2.root.value)){
+      if( node1.val === this.tree2.root.value && isIdentical(node1, this.tree2.root.value)){
         subtreeRes = true
         return
       }

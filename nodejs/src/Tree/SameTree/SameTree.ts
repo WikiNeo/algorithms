@@ -1,6 +1,6 @@
 import BaseTreeAlgorithm from "../BaseTreeAlgorithm";
 import Tree from "../Tree";
-import TreeNode from "../TreeNode";
+import TreeNodeT from "../TreeNode";
 
 class SameTree<T> extends BaseTreeAlgorithm<T>{
   tree2: Tree<T>
@@ -13,11 +13,11 @@ class SameTree<T> extends BaseTreeAlgorithm<T>{
   exec(): boolean {
     let res: boolean = true;
 
-    const travel = (node1: TreeNode<T> | null, node2: TreeNode<T> | null) => {
+    const travel = (node1: TreeNodeT<T> | null, node2: TreeNodeT<T> | null) => {
       if(res === false) return;
       if(node1 === null && node2 === null) return
 
-      if(node1 === null || node2 === null || node1.value !== node2.value) {
+      if(node1 === null || node2 === null || node1.val !== node2.val) {
         res = false;
         return
       }

@@ -1,9 +1,9 @@
-import TreeNode from "./TreeNode";
+import TreeNodeT from "./TreeNode";
 
 class Tree<T> {
-  root: TreeNode<T> | null
+  root: TreeNodeT<T> | null
 
-  constructor(root?: TreeNode<T>) {
+  constructor(root?: TreeNodeT<T>) {
     this.root = (root === undefined ? null : root)
   }
 }

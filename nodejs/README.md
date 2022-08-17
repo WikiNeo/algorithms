@@ -25,6 +25,7 @@ docker-compose up
   - [Subsets II](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Backtracking/SubsetsII)
   - [WordSearch](https://github.com/mintwzy/algorithms-ts/tree/main/src/Backtracking/WordSearch)
 - [Binary Search](https://github.com/mintwzy/algorithms-ts/tree/main/src/BinarySearch)
+  - [Binary Search]
   - [Eating bananas]
   - [Find Minimum in Rotated Sorted Array](https://github.com/mintwzy/algorithms-ts/tree/main/src/BinarySearch/MinRotatedSortedArray)
   - [Search a 2D Matrix]
@@ -47,6 +48,8 @@ docker-compose up
   - [Valid Sudoku](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Set/ValidSudoku)
 - [Sort](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Sort)
   - [Group Anagrams](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Sort/GroupAnagrams)
+- [Stack]
+  - [Min Stack]
 - [Tree](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree)
   - [Balanced binary tree](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree/IsBalanced)
   - [Construct from level order traversal](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree/ConstructFromLevelOrder)

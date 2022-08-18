@@ -1,11 +1,22 @@
-import TreeNode from "./TreeNode";
+import TreeNodeT, {TreeNodeS} from "./TreeNode";
 
-class Tree<T> {
-  root: TreeNode<T> | null
+class TreeT<T> {
+  root: TreeNodeT<T> | null
 
-  constructor(root?: TreeNode<T>) {
+  constructor(root?: TreeNodeT<T>) {
     this.root = (root === undefined ? null : root)
   }
 }
 
-export default Tree;
+class TreeS {
+  root: TreeNodeS | null
+
+  constructor(root?: TreeNodeS) {
+    this.root = (root === undefined ? null : root)
+  }
+}
+
+
+export default TreeT;
+
+export {TreeS};

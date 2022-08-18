@@ -1,11 +1,11 @@
-import BaseTreeAlgorithm from "../BaseTreeAlgorithm";
-import TreeNode from "../TreeNode";
+import BaseTreeAlgorithmT from "../BaseTreeAlgorithm";
+import TreeNodeT from "../TreeNode";
 
-class IsBalanced<T> extends BaseTreeAlgorithm<T>{
+class IsBalanced<T> extends BaseTreeAlgorithmT<T>{
   exec(): boolean {
     let res: boolean = true;
 
-    const height = (node: TreeNode<T> | null): number => {
+    const height = (node: TreeNodeT<T> | null): number => {
       if(res === false || node === null) return 0
 
       const left: number = height(node.left)

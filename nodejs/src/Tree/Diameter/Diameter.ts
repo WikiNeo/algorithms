@@ -1,12 +1,12 @@
-import BaseTreeAlgorithm from "../BaseTreeAlgorithm";
-import TreeNode from "../TreeNode";
+import BaseTreeAlgorithmT from "../BaseTreeAlgorithm";
+import TreeNodeT from "../TreeNode";
 
-class Diameter<T> extends BaseTreeAlgorithm<T>{
+class Diameter<T> extends BaseTreeAlgorithmT<T>{
   exec(): number{
 
     let res: number = 0;
 
-    const height = (node: TreeNode<T> | null): number => {
+    const height = (node: TreeNodeT<T> | null): number => {
       if(node === null) return 0;
       const left: number = height(node.left)
       const right: number = height(node.right)

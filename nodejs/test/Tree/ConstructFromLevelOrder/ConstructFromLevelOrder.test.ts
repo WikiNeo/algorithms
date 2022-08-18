@@ -1,5 +1,5 @@
 import {describe, it} from "mocha";
-import Tree from "../../../src/Tree/Tree";
+import TreeT from "../../../src/Tree/Tree";
 import ConstructFromLevelOrder from "../../../src/Tree/ConstructFromLevelOrder/ConstructFromLevelOrder";
 import LevelOrderTraversal from "../../../src/Tree/LevelOrderTraversal/LevelOrderTraversal";
 import {expect} from "chai";
@@ -7,7 +7,7 @@ import {expect} from "chai";
 describe('construct binary tree from level order', () => {
   describe('exec', () => {
     it('should return correct result', () => {
-      const tree: Tree<number> = new Tree<number>()
+      const tree: TreeT<number> = new TreeT<number>()
 
       const constructFromLevelOrder: ConstructFromLevelOrder<number> = new ConstructFromLevelOrder<number>(tree)
       constructFromLevelOrder.exec([3, null, 20, null, null, 15, 7])
@@ -18,7 +18,7 @@ describe('construct binary tree from level order', () => {
     })
 
     it('should return correct result 2', () => {
-      const tree: Tree<number> = new Tree<number>()
+      const tree: TreeT<number> = new TreeT<number>()
 
       const constructFromLevelOrder: ConstructFromLevelOrder<number> = new ConstructFromLevelOrder<number>(tree)
       constructFromLevelOrder.exec([1, null, 2])

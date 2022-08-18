@@ -1,13 +1,13 @@
-import TreeNode from "../TreeNode";
-import BaseTreeAlgorithm from "../BaseTreeAlgorithm";
+import TreeNodeT from "../TreeNode";
+import BaseTreeAlgorithmT from "../BaseTreeAlgorithm";
 
-class LevelOrderTraversal<T> extends BaseTreeAlgorithm<T>{
+class LevelOrderTraversal<T> extends BaseTreeAlgorithmT<T>{
 
   exec() {
     if(this.tree.root === null) {
       return
     }
-    const queue: (TreeNode<T> | null)[] = [this.tree.root]
+    const queue: (TreeNodeT<T> | null)[] = [this.tree.root]
 
     while(queue.length > 0){
       const temp: T[] = []
@@ -15,10 +15,10 @@ class LevelOrderTraversal<T> extends BaseTreeAlgorithm<T>{
 
       for(let i = 0; i < LEN; i++){
         // @ts-ignore
-        const front: TreeNode<T> = queue.shift()
+        const front: TreeNodeT<T> = queue.shift()
         if(front !== null){
           // @ts-ignore
-          temp.push(front.value)
+          temp.push(front.val)
           queue.push(front.left)
           queue.push(front.right)
         }

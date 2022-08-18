@@ -1,11 +1,11 @@
-import Tree from "./Tree";
+import TreeT, {TreeS} from "./Tree";
 
-class BaseTreeAlgorithm<T> {
-  tree: Tree<T>
+class BaseTreeAlgorithmT<T> {
+  tree: TreeT<T>
 
   result: T[][]
 
-  constructor(tree: Tree<T>) {
+  constructor(tree: TreeT<T>) {
     this.tree = tree
     this.result = []
   }
@@ -15,4 +15,14 @@ class BaseTreeAlgorithm<T> {
   }
 }
 
-export default BaseTreeAlgorithm;
+class BaseTreeAlgorithmS {
+  tree: TreeS
+
+  constructor(tree: TreeS) {
+    this.tree = tree;
+  }
+}
+
+export default BaseTreeAlgorithmT;
+
+export {BaseTreeAlgorithmS}

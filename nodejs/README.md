@@ -25,9 +25,10 @@ docker-compose up
   - [Subsets II](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Backtracking/SubsetsII)
   - [WordSearch](https://github.com/mintwzy/algorithms-ts/tree/main/src/Backtracking/WordSearch)
 - [Binary Search](https://github.com/mintwzy/algorithms-ts/tree/main/src/BinarySearch)
+  - [Binary Search](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/BinarySearch/BinarySearch)
   - [Eating bananas]
   - [Find Minimum in Rotated Sorted Array](https://github.com/mintwzy/algorithms-ts/tree/main/src/BinarySearch/MinRotatedSortedArray)
-  - [Search a 2D Matrix]
+  - [Search a 2D Matrix](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/BinarySearch/Search2DMatrix)
   - [Search Rotated Sorted Array]
   - [Time Based Key-Value Store]
 - [Graph](https://github.com/mintwzy/algorithms-ts/tree/main/src/Graph)
@@ -47,6 +48,8 @@ docker-compose up
   - [Valid Sudoku](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Set/ValidSudoku)
 - [Sort](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Sort)
   - [Group Anagrams](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Sort/GroupAnagrams)
+- [Stack](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Stack)
+  - [Min Stack](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Stack/MinStack)
 - [Tree](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree)
   - [Balanced binary tree](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree/IsBalanced)
   - [Construct from level order traversal](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree/ConstructFromLevelOrder)
@@ -59,12 +62,15 @@ docker-compose up
   - [Level order traversal](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree/LevelOrderTraversal)
   - [Maximum depth](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree/MaxDepth)
   - [Right side view]
-  - [Same tree]
-  - [Subtree]
+  - [Same tree](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/SameTree)
+  - [Subtree](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/SubTree)
 - [Trie](https://github.com/mintwzy/algorithms-ts/tree/main/src/Trie)
-  - [Design Add and Search Words Data Structure]
+  - [Design Add and Search Words Data Structure](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Trie/AddAndSearchWords)
 - [Two Pointers](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers)
-  - [Container with Most Water] 
+  - [Best Time to Buy and Sell Stock](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/BestTimeToBuyAndSellStock)
+  - [Container with Most Water](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/ContainerWithMostWater)
+  - [Longest Repeating Character Replacement]
+  - [Longest Substring without Repeating Characters](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/LongestSubstringWithoutRepeatingCharacters)
   - [Three Sum](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/ThreeSum)
   - [Two Sum II](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/TwoSumII)
   - [Valid Palindrome](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/ValidPalindrome)

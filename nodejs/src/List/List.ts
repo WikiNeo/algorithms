@@ -1,7 +1,7 @@
-import ListNode from "./ListNode";
+import ListNodeT from "./ListNode";
 
 class List<T> {
-  head: ListNode<T> | null
+  head: ListNodeT<T> | null
 
   constructor() {
     this.head = null;

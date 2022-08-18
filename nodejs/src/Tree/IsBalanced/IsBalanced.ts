@@ -1,7 +1,7 @@
-import BaseTreeAlgorithm from "../BaseTreeAlgorithm";
+import BaseTreeAlgorithmT from "../BaseTreeAlgorithm";
 import TreeNodeT from "../TreeNode";
 
-class IsBalanced<T> extends BaseTreeAlgorithm<T>{
+class IsBalanced<T> extends BaseTreeAlgorithmT<T>{
   exec(): boolean {
     let res: boolean = true;
 

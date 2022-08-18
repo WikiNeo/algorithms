@@ -1,7 +1,7 @@
-import BaseTreeAlgorithm from "../BaseTreeAlgorithm";
+import BaseTreeAlgorithmT from "../BaseTreeAlgorithm";
 import TreeNodeT from "../TreeNode";
 
-class InvertBinaryTree<T> extends BaseTreeAlgorithm<T>{
+class InvertBinaryTree<T> extends BaseTreeAlgorithmT<T>{
 
   exec(node: TreeNodeT<T> | null): TreeNodeT<T> | null{
     if(node === null){

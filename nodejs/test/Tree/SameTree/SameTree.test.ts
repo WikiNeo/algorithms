@@ -1,5 +1,5 @@
 import {describe, it} from "mocha";
-import Tree from "../../../src/Tree/Tree";
+import TreeT from "../../../src/Tree/Tree";
 import ConstructFromLevelOrder from "../../../src/Tree/ConstructFromLevelOrder/ConstructFromLevelOrder";
 import SameTree from "../../../src/Tree/SameTree/SameTree";
 import {expect} from "chai";
@@ -8,12 +8,12 @@ describe('Same tree', () => {
   describe('exec', () => {
     it('should return find the same tree', () => {
       const values1: (number | null)[] = [1, 2, 3]
-      const tree1: Tree<number> = new Tree<number>()
+      const tree1: TreeT<number> = new TreeT<number>()
       const constructFromLevelOrder1: ConstructFromLevelOrder<number> = new ConstructFromLevelOrder<number>(tree1)
       constructFromLevelOrder1.exec(values1)
 
       const values2: (number | null)[] = [1, 2, 3]
-      const tree2: Tree<number> = new Tree<number>()
+      const tree2: TreeT<number> = new TreeT<number>()
       const constructFromLevelOrder2: ConstructFromLevelOrder<number> = new ConstructFromLevelOrder<number>(tree2)
       constructFromLevelOrder2.exec(values2)
 
@@ -24,12 +24,12 @@ describe('Same tree', () => {
     it('should identify the tree shapes are not the same', () => {
 
       const values1: (number | null)[] = [1, 2]
-      const tree1: Tree<number> = new Tree<number>()
+      const tree1: TreeT<number> = new TreeT<number>()
       const constructFromLevelOrder1: ConstructFromLevelOrder<number> = new ConstructFromLevelOrder<number>(tree1)
       constructFromLevelOrder1.exec(values1)
 
       const values2: (number | null)[] = [1, null, 2]
-      const tree2: Tree<number> = new Tree<number>()
+      const tree2: TreeT<number> = new TreeT<number>()
       const constructFromLevelOrder2: ConstructFromLevelOrder<number> = new ConstructFromLevelOrder<number>(tree2)
       constructFromLevelOrder2.exec(values2)
 
@@ -39,12 +39,12 @@ describe('Same tree', () => {
 
     it('should identify the node values are not the same', () => {
       const values1: (number | null)[] = [1, 2, 1]
-      const tree1: Tree<number> = new Tree<number>()
+      const tree1: TreeT<number> = new TreeT<number>()
       const constructFromLevelOrder1: ConstructFromLevelOrder<number> = new ConstructFromLevelOrder<number>(tree1)
       constructFromLevelOrder1.exec(values1)
 
       const values2: (number | null)[] = [1, 1, 2]
-      const tree2: Tree<number> = new Tree<number>()
+      const tree2: TreeT<number> = new TreeT<number>()
       const constructFromLevelOrder2: ConstructFromLevelOrder<number> = new ConstructFromLevelOrder<number>(tree2)
       constructFromLevelOrder2.exec(values2)
 

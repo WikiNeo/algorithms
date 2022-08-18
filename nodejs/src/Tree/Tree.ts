@@ -1,6 +1,6 @@
-import TreeNodeT from "./TreeNode";
+import TreeNodeT, {TreeNodeS} from "./TreeNode";
 
-class Tree<T> {
+class TreeT<T> {
   root: TreeNodeT<T> | null
 
   constructor(root?: TreeNodeT<T>) {
@@ -8,4 +8,15 @@ class Tree<T> {
   }
 }
 
-export default Tree;
+class TreeS {
+  root: TreeNodeS | null
+
+  constructor(root?: TreeNodeS) {
+    this.root = (root === undefined ? null : root)
+  }
+}
+
+
+export default TreeT;
+
+export {TreeS};

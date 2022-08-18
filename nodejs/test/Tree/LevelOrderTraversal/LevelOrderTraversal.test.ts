@@ -1,7 +1,7 @@
 import {describe, it} from "mocha";
 import {expect} from "chai";
 import TreeNodeT from "../../../src/Tree/TreeNode";
-import Tree from "../../../src/Tree/Tree";
+import TreeT from "../../../src/Tree/Tree";
 import LevelOrderTraversal from "../../../src/Tree/LevelOrderTraversal/LevelOrderTraversal";
 
 describe('level order traversal', () => {
@@ -17,7 +17,7 @@ describe('level order traversal', () => {
       root.right = node20
       node20.left = node15
       node20.right = node7
-      const tree: Tree<number> = new Tree<number>(root)
+      const tree: TreeT<number> = new TreeT<number>(root)
 
       const levelOrderTraversal = new LevelOrderTraversal<number>(tree)
       levelOrderTraversal.exec()

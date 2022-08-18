@@ -1,7 +1,7 @@
-import BaseTreeAlgorithm from "../BaseTreeAlgorithm";
+import BaseTreeAlgorithmT from "../BaseTreeAlgorithm";
 import TreeNodeT from "../TreeNode";
 
-class ConstructFromLevelOrder<T> extends BaseTreeAlgorithm<T>{
+class ConstructFromLevelOrder<T> extends BaseTreeAlgorithmT<T>{
   exec(values: (T | null)[]){
     const queue: (TreeNodeT<T> | null)[] = []
 

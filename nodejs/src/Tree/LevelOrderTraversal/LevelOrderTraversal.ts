@@ -1,7 +1,7 @@
 import TreeNodeT from "../TreeNode";
-import BaseTreeAlgorithm from "../BaseTreeAlgorithm";
+import BaseTreeAlgorithmT from "../BaseTreeAlgorithm";
 
-class LevelOrderTraversal<T> extends BaseTreeAlgorithm<T>{
+class LevelOrderTraversal<T> extends BaseTreeAlgorithmT<T>{
 
   exec() {
     if(this.tree.root === null) {

@@ -1,11 +1,11 @@
-import BaseTreeAlgorithm from "../BaseTreeAlgorithm";
+import BaseTreeAlgorithmT from "../BaseTreeAlgorithm";
 import TreeNodeT from "../TreeNode";
 
 /**
  * A binary tree's maximum depth is the number of nodes along the longest path
  * from the root node down to the farthest leaf node.
  */
-class MaxDepth<T> extends BaseTreeAlgorithm<T>{
+class MaxDepth<T> extends BaseTreeAlgorithmT<T>{
 
   exec(): number {
 

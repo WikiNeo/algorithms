@@ -1,7 +1,7 @@
-import BaseTreeAlgorithm from "../BaseTreeAlgorithm";
+import BaseTreeAlgorithmT from "../BaseTreeAlgorithm";
 import TreeNodeT from "../TreeNode";
 
-class Diameter<T> extends BaseTreeAlgorithm<T>{
+class Diameter<T> extends BaseTreeAlgorithmT<T>{
   exec(): number{
 
     let res: number = 0;

@@ -1,11 +1,11 @@
-import BaseTreeAlgorithm from "../BaseTreeAlgorithm";
-import Tree from "../Tree";
+import BaseTreeAlgorithmT from "../BaseTreeAlgorithm";
+import TreeT from "../Tree";
 import TreeNodeT from "../TreeNode";
 
-class SameTree<T> extends BaseTreeAlgorithm<T>{
-  tree2: Tree<T>
+class SameTree<T> extends BaseTreeAlgorithmT<T>{
+  tree2: TreeT<T>
 
-  constructor(tree1: Tree<T>, tree2: Tree<T>) {
+  constructor(tree1: TreeT<T>, tree2: TreeT<T>) {
     super(tree1);
     this.tree2 = tree2
   }

@@ -69,6 +69,7 @@ docker-compose up
 - [Two Pointers](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers)
   - [Best Time to Buy and Sell Stock](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/BestTimeToBuyAndSellStock)
   - [Container with Most Water](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/ContainerWithMostWater)
+  - [Longest Repeating Character Replacement]
   - [Longest Substring without Repeating Characters](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/LongestSubstringWithoutRepeatingCharacters)
   - [Three Sum](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/ThreeSum)
   - [Two Sum II](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/TwoSumII)

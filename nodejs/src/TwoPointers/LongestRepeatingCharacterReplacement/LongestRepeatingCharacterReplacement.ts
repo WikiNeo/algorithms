@@ -42,11 +42,16 @@ class LongestRepeatingCharacterReplacement {
     let left: number = 0;
 
     for(let right = 0; right < LEN; right++){
+      // update right pointer count
       let rCount = charToCount.get(this.s[right]) || 0
       rCount++;
       charToCount.set(this.s[right], rCount)
+
+      // update max count and calculate toReplace
       maxCount = Math.max(maxCount, rCount)
       const toReplace: number = right - left + 1 - maxCount
+
+      // check if we want to update result or move left pointer
       if(toReplace <= this.k) {
         res = Math.max(res, right - left + 1)
       } else {

@@ -17,31 +17,31 @@ docker-compose up
 
 ## Algorithms
 
-- [Backtracking](https://github.com/mintwzy/algorithms-ts/tree/main/src/Backtracking)
-  - [Combination Sum](https://github.com/mintwzy/algorithms-ts/tree/main/src/Backtracking/CombinationSum)
+- [Backtracking](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Backtracking)
+  - [Combination Sum](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Backtracking/CombinationSum)
   - [Combination Sum II](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Backtracking/CombinationSumII)
   - [Permutations](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Backtracking/Permutations)
-  - [Subsets](https://github.com/mintwzy/algorithms-ts/tree/main/src/Backtracking/Subsets)
+  - [Subsets](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Backtracking/Subsets)
   - [Subsets II](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Backtracking/SubsetsII)
-  - [WordSearch](https://github.com/mintwzy/algorithms-ts/tree/main/src/Backtracking/WordSearch)
-- [Binary Search](https://github.com/mintwzy/algorithms-ts/tree/main/src/BinarySearch)
+  - [WordSearch](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Backtracking/WordSearch)
+- [Binary Search](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/BinarySearch)
   - [Binary Search](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/BinarySearch/BinarySearch)
   - [Eating bananas]
-  - [Find Minimum in Rotated Sorted Array](https://github.com/mintwzy/algorithms-ts/tree/main/src/BinarySearch/MinRotatedSortedArray)
+  - [Find Minimum in Rotated Sorted Array](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/BinarySearch/MinRotatedSortedArray)
   - [Search a 2D Matrix](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/BinarySearch/Search2DMatrix)
   - [Search Rotated Sorted Array]
   - [Time Based Key-Value Store]
-- [Graph](https://github.com/mintwzy/algorithms-ts/tree/main/src/Graph)
-  - [BFS](https://github.com/mintwzy/algorithms-ts/tree/main/src/Graph/BFS)
-  - [DFS](https://github.com/mintwzy/algorithms-ts/tree/main/src/Graph/DFS)
+- [Graph](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Graph)
+  - [BFS](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Graph/BFS)
+  - [DFS](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Graph/DFS)
     - [Clone Graph]
     - [Number of Islands]
-  - [Topological Sort](https://github.com/mintwzy/algorithms-ts/tree/main/src/Graph/TopologicalSort)
-- [Heap](https://github.com/mintwzy/algorithms-ts/tree/main/src/Heap)
-- [List](https://github.com/mintwzy/algorithms-ts/tree/main/src/List)
+  - [Topological Sort](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Graph/TopologicalSort)
+- [Heap](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Heap)
+- [List](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/List)
   - [Copy List with Random Pointer]
   - [Find the Duplicate Number]
-  - [List Cycle](https://github.com/mintwzy/algorithms-ts/tree/main/src/List/ListCycle)
+  - [List Cycle](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/List/ListCycle)
   - [Reverse List]
 - [Set](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Set)
   - [Longest Consecutive Sequence](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Set/LongestConsecutiveSequence)
@@ -50,26 +50,27 @@ docker-compose up
   - [Group Anagrams](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Sort/GroupAnagrams)
 - [Stack](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Stack)
   - [Min Stack](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Stack/MinStack)
-- [Tree](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree)
-  - [Balanced binary tree](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree/IsBalanced)
-  - [Construct from level order traversal](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree/ConstructFromLevelOrder)
+- [Tree](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree)
+  - [Construct from level order traversal](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/ConstructFromLevelOrder)
   - [Construct Tree from Preorder and Inorder Traversal]
   - [Count good node]
-  - [Diameter](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree/Diameter)
-  - [Invert binary tree](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree/InvertBinaryTree)
+  - [Diameter](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/Diameter)
+  - [Invert binary tree](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/InvertBinaryTree)
+  - [Is balanced binary tree](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/IsBalanced)
+  - [Is symmetric binary tree](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/IsSymmetric)
   - [Lowest common ancestor of BST]
   - [Lowest common ancestor of BT]
-  - [Level order traversal](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree/LevelOrderTraversal)
-  - [Maximum depth](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree/MaxDepth)
+  - [Level order traversal](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/LevelOrderTraversal)
+  - [Maximum depth](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/MaxDepth)
   - [Right side view]
   - [Same tree](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/SameTree)
   - [Subtree](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/SubTree)
-- [Trie](https://github.com/mintwzy/algorithms-ts/tree/main/src/Trie)
+- [Trie](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Trie)
   - [Design Add and Search Words Data Structure](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Trie/AddAndSearchWords)
 - [Two Pointers](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers)
   - [Best Time to Buy and Sell Stock](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/BestTimeToBuyAndSellStock)
   - [Container with Most Water](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/ContainerWithMostWater)
-  - [Longest Repeating Character Replacement]
+  - [Longest Repeating Character Replacement](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/LongestRepeatingCharacterReplacement)
   - [Longest Substring without Repeating Characters](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/LongestSubstringWithoutRepeatingCharacters)
   - [Three Sum](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/ThreeSum)
   - [Two Sum II](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/TwoSumII)

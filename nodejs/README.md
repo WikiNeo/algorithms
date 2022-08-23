@@ -29,7 +29,7 @@ docker-compose up
   - [Eating bananas](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/BinarySearch/EatingBananas)
   - [Find Minimum in Rotated Sorted Array](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/BinarySearch/MinRotatedSortedArray)
   - [Search a 2D Matrix](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/BinarySearch/Search2DMatrix)
-  - [Search Rotated Sorted Array]
+  - [Search Rotated Sorted Array](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/BinarySearch/SearchRotatedSortedArray)
   - [Time Based Key-Value Store]
 - [Graph](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Graph)
   - [BFS](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Graph/BFS)

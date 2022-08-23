@@ -9,9 +9,9 @@ class MinRotatedSortedArray {
     let res: number = this.nums[0]
     let left: number = 0, right: number = this.nums.length - 1
 
-    while(left < right){
+    while(left <= right){
       // we are in a sorted interval, nums[left] is the potential min
-      if(this.nums[left] < this.nums[right]){
+      if(this.nums[left] <= this.nums[right]){
         res = Math.min(res, this.nums[left])
         break
       }
@@ -20,7 +20,7 @@ class MinRotatedSortedArray {
       res = Math.min(res, this.nums[mid])
 
       // try to do the binary search
-      if(this.nums[left] < this.nums[mid]) left = mid + 1
+      if(this.nums[left] <= this.nums[mid]) left = mid + 1
       else right = mid - 1
     }
 

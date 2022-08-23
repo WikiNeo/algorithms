@@ -30,7 +30,7 @@ docker-compose up
   - [Find Minimum in Rotated Sorted Array](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/BinarySearch/MinRotatedSortedArray)
   - [Search a 2D Matrix](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/BinarySearch/Search2DMatrix)
   - [Search Rotated Sorted Array](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/BinarySearch/SearchRotatedSortedArray)
-  - [Time Based Key-Value Store]
+  - [Time Based Key-Value Store](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/BinarySearch/TimeBasedKeyValueStore)
 - [Graph](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Graph)
   - [BFS](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Graph/BFS)
   - [DFS](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Graph/DFS)
@@ -50,6 +50,7 @@ docker-compose up
   - [Group Anagrams](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Sort/GroupAnagrams)
 - [Stack](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Stack)
   - [Min Stack](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Stack/MinStack)
+  - [Valid Parentheses]
 - [Tree](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree)
   - [Construct from level order traversal](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/ConstructFromLevelOrder)
   - [Construct Tree from Preorder and Inorder Traversal]
@@ -72,6 +73,7 @@ docker-compose up
   - [Container with Most Water](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/ContainerWithMostWater)
   - [Longest Repeating Character Replacement](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/LongestRepeatingCharacterReplacement)
   - [Longest Substring without Repeating Characters](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/LongestSubstringWithoutRepeatingCharacters)
+  - [Permutation in String]
   - [Three Sum](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/ThreeSum)
   - [Two Sum II](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/TwoSumII)
   - [Valid Palindrome](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/ValidPalindrome)

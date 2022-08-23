@@ -26,7 +26,7 @@ docker-compose up
   - [WordSearch](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Backtracking/WordSearch)
 - [Binary Search](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/BinarySearch)
   - [Binary Search](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/BinarySearch/BinarySearch)
-  - [Eating bananas]
+  - [Eating bananas](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/BinarySearch/EatingBananas)
   - [Find Minimum in Rotated Sorted Array](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/BinarySearch/MinRotatedSortedArray)
   - [Search a 2D Matrix](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/BinarySearch/Search2DMatrix)
   - [Search Rotated Sorted Array]

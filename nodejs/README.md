@@ -49,7 +49,7 @@ docker-compose up
   - [Merge Two Lists]
   - [Remove Nth Node from End of List]
   - [Reorder List]
-  - [Reverse List]
+  - [Reverse List](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/List/ReverseList)
 - [Set](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Set)
   - [Longest Consecutive Sequence](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Set/LongestConsecutiveSequence)
   - [Valid Sudoku](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Set/ValidSudoku)

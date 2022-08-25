@@ -16,7 +16,7 @@ class ListNodeT<T> {
  */
 class ListNodeS {
   value: number
-  next: ListNodeS
+  next: ListNodeS | null
 
   constructor(value: number, next: ListNodeS) {
     this.value = value

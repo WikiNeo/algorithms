@@ -8,9 +8,10 @@ class ListCycle {
   }
 
   exec(): boolean {
-    let slow: ListNodeS = this.head, fast: ListNodeS = this.head
+    let slow: ListNodeS | null = this.head, fast: ListNodeS | null = this.head
 
     while(fast && fast.next){
+      // @ts-ignore
       slow = slow.next
       fast = fast.next.next
       if(slow === fast) return true

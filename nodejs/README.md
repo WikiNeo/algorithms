@@ -56,7 +56,7 @@ docker-compose up
 - [Sort](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Sort)
   - [Group Anagrams](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Sort/GroupAnagrams)
 - [Stack](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Stack)
-  - [Car Fleet]
+  - [Car Fleet](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Stack/CarFleet)
   - [Daily Temperatures](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Stack/DailyTemperatures)
   - [Evaluate Reverse Polish Notation](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Stack/EvaluateReversePolishNotation)
   - [Generate Parentheses](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Stack/GenerateParentheses)

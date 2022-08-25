@@ -1,6 +1,6 @@
-import ListNodeT from "./ListNode";
+import ListNodeT, {ListNodeS} from "./ListNode";
 
-class List<T> {
+class ListT<T> {
   head: ListNodeT<T> | null
 
   constructor() {
@@ -8,4 +8,14 @@ class List<T> {
   }
 }
 
-export default List;
+class ListS {
+  head: ListNodeS | null
+
+  constructor() {
+    this.head = null;
+  }
+}
+
+export default ListT;
+
+export {ListS}

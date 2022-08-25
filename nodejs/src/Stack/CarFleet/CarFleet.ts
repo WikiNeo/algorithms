@@ -29,3 +29,5 @@ class CarFleet {
     return stack.length
   }
 }
+
+export default CarFleet;

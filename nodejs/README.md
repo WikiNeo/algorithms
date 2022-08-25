@@ -86,7 +86,7 @@ docker-compose up
   - [Container with Most Water](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/ContainerWithMostWater)
   - [Longest Repeating Character Replacement](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/LongestRepeatingCharacterReplacement)
   - [Longest Substring without Repeating Characters](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/LongestSubstringWithoutRepeatingCharacters)
-  - [Permutation in String]
+  - [Permutation in String](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/PermutationInString)
   - [Three Sum](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/ThreeSum)
   - [Two Sum II](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/TwoSumII)
   - [Valid Palindrome](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/TwoPointers/ValidPalindrome)

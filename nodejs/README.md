@@ -58,7 +58,7 @@ docker-compose up
 - [Stack](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Stack)
   - [Car Fleet]
   - [Daily Temperatures]
-  - [Evaluate Reverse Polish Notation]
+  - [Evaluate Reverse Polish Notation](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Stack/EvaluateReversePolishNotation)
   - [Generate Parentheses]
   - [Min Stack](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Stack/MinStack)
   - [Valid Parentheses](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Stack/ValidParentheses)

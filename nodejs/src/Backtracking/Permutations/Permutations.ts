@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 class Permutations {
   nums: number[]
 
@@ -18,6 +17,7 @@ class Permutations {
     }
 
     // for an array of length n, loop n times.
+    // eslint-disable-next-line no-unused-vars
     for(let _ of nums){
       // remove the first value
       // @ts-ignore

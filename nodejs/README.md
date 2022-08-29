@@ -42,12 +42,12 @@ docker-compose up
 - [Heap](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Heap)
 - [List](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/List)
   - [Add Two Numbers]
-  - [Copy List with Random Pointer]
+  - [Copy List with Random Pointer](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/List/CopyWithRandomPointer)
   - [Find the Duplicate Number]
   - [List Cycle](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/List/ListCycle)
   - [LRU Cache]
   - [Merge Two Lists](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/List/MergeTwoLists)
-  - [Remove Nth Node from End of List]
+  - [Remove Nth Node from End of List](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/List/RemoveNthNodeFromEnd)
   - [Reorder List](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/List/ReorderList)
   - [Reverse List](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/List/ReverseList)
 - [Set](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Set)

@@ -6,7 +6,7 @@ import GraphNode from "../../../src/Graph/GraphNode";
 
 describe('bfs', () => {
   describe('exec', () => {
-    it('should return correct order', () => {
+    it('should return [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]', () => {
       const graph: Graph<number> = new Graph<number>()
 
       const node1: GraphNode<number> = new GraphNode(1);

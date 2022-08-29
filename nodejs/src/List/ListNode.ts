@@ -3,7 +3,7 @@
  */
 class ListNodeT<T> {
   value: T
-  next: ListNodeT<T>
+  next: ListNodeT<T> | null
 
   constructor(value: T, next: ListNodeT<T>) {
     this.value = value
@@ -15,12 +15,12 @@ class ListNodeT<T> {
  * Simple ListNode
  */
 class ListNodeS {
-  value: number
+  val: number
   next: ListNodeS | null
 
-  constructor(value: number, next: ListNodeS) {
-    this.value = value
-    this.next = next;
+  constructor(val?: number, next?: ListNodeS) {
+    this.val = (val === undefined ? 0 : val)
+    this.next = (next === undefined ? null: next)
   }
 }
 

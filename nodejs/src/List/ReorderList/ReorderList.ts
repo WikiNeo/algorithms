@@ -1,14 +1,14 @@
-import {ListNodeS} from "../ListNode";
+import {ListNode} from "../ListNode";
 
 class ReorderList {
-  head: ListNodeS
+  head: ListNode
 
-  constructor(head: ListNodeS) {
+  constructor(head: ListNode) {
     this.head = head
   }
 
   exec(): void {
-    let slow: ListNodeS | null = this.head, fast: ListNodeS | null = this.head;
+    let slow: ListNode | null = this.head, fast: ListNode | null = this.head;
 
     // move slow to the mid
     while(fast && fast.next){
@@ -21,24 +21,24 @@ class ReorderList {
     }
 
     // reverse second half
-    let left: ListNodeS | null = null, right: ListNodeS | null = slow;
+    let left: ListNode | null = null, right: ListNode | null = slow;
     while(right){
-      const temp: ListNodeS | null = right.next;
+      const temp: ListNode | null = right.next;
       right.next = left;
       left = right
       right = temp;
     }
 
     // merge two lists
-    let first: ListNodeS | null = this.head, second = left;
+    let first: ListNode | null = this.head, second = left;
     while(second){
       // @ts-ignore
-      const temp1: ListNodeS | null = first.next;
+      const temp1: ListNode | null = first.next;
       // @ts-ignore
       first.next = second;
       first = temp1;
 
-      const temp2: ListNodeS | null = second.next;
+      const temp2: ListNode | null = second.next;
       second.next = first;
       second = temp2;
     }

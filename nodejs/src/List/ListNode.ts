@@ -14,16 +14,18 @@ class ListNodeT<T> {
 /**
  * Simple ListNode
  */
-class ListNodeS {
+class ListNode {
   val: number
-  next: ListNodeS | null
+  next: ListNode | null
+  random: ListNode | null
 
-  constructor(val?: number, next?: ListNodeS) {
+  constructor(val?: number, next?: ListNode, random?: ListNode) {
     this.val = (val === undefined ? 0 : val)
     this.next = (next === undefined ? null: next)
+    this.random = (random === undefined ? null: random)
   }
 }
 
 export default ListNodeT;
 
-export {ListNodeS}
+export {ListNode}

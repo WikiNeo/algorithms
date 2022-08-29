@@ -1,17 +1,17 @@
-import {ListNodeS} from "../ListNode";
+import {ListNode} from "../ListNode";
 
 class MergeTwoLists {
-  list1: ListNodeS | null
-  list2: ListNodeS | null
+  list1: ListNode | null
+  list2: ListNode | null
 
-  constructor(list1: ListNodeS, list2: ListNodeS) {
+  constructor(list1: ListNode, list2: ListNode) {
     this.list1 = list1
     this.list2 = list2;
   }
 
-  exec(): ListNodeS | null {
-    const head: ListNodeS = new ListNodeS();
-    let cur: ListNodeS = head;
+  exec(): ListNode | null {
+    const head: ListNode = new ListNode();
+    let cur: ListNode = head;
 
     while(this.list1 && this.list2){
       if(this.list1.val < this.list2.val){

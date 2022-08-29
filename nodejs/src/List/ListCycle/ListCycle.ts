@@ -1,14 +1,14 @@
-import {ListNodeS} from "../ListNode";
+import {ListNode} from "../ListNode";
 
 class ListCycle {
-  head: ListNodeS;
+  head: ListNode;
 
-  constructor(head: ListNodeS) {
+  constructor(head: ListNode) {
     this.head = head;
   }
 
   exec(): boolean {
-    let slow: ListNodeS | null = this.head, fast: ListNodeS | null = this.head
+    let slow: ListNode | null = this.head, fast: ListNode | null = this.head
 
     while(fast && fast.next){
       // @ts-ignore

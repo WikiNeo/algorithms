@@ -46,9 +46,9 @@ docker-compose up
   - [Find the Duplicate Number]
   - [List Cycle](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/List/ListCycle)
   - [LRU Cache]
-  - [Merge Two Lists]
+  - [Merge Two Lists](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/List/MergeTwoLists)
   - [Remove Nth Node from End of List]
-  - [Reorder List]
+  - [Reorder List](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/List/ReorderList)
   - [Reverse List](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/List/ReverseList)
 - [Set](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Set)
   - [Longest Consecutive Sequence](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Set/LongestConsecutiveSequence)

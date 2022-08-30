@@ -5,18 +5,22 @@ class IsBalanced<T> extends BaseTreeAlgorithmT<T>{
   exec(): boolean {
     let res: boolean = true;
 
-    const height = (node: TreeNodeT<T> | null): number => {
+    const depth = (node: TreeNodeT<T> | null): number => {
+      // early return & base case
       if(res === false || node === null) return 0
 
-      const left: number = height(node.left)
-      const right: number = height(node.right)
+      // we get the depth of left & right node
+      const left: number = depth(node.left)
+      const right: number = depth(node.right)
 
-      if(Math.abs(left - right) > 2) res = false;
+      // check there difference to update result
+      if(Math.abs(left - right) > 1) res = false;
 
+      // update depth result
       return Math.max(left, right) + 1
     }
 
-    height(this.tree.root)
+    depth(this.tree.root)
 
     return res;
   }

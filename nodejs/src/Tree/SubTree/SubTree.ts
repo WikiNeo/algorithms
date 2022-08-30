@@ -11,17 +11,30 @@ class SubTree<T> extends BaseTreeAlgorithmT<T>{
   }
 
   exec(): boolean {
+
+    /**
+     * Check if two trees are the same
+     *
+     * @param node1
+     * @param node2
+     */
     const isIdentical = (node1: TreeNodeT<T>, node2: TreeNodeT<T>): boolean => {
+      // assume true
       let identicalRes: boolean  = true;
 
       const travel = (node1: TreeNodeT<T> | null, node2: TreeNodeT<T> | null) => {
+        // early return
         if(identicalRes === false) return;
+        // base case
         if(node1 === null && node2 === null) return
 
+        // false case
         if(node1 === null || node2 === null || node1.val !== node2.val){
           identicalRes = false;
           return
         }
+
+        // continue left & right
         travel(node1.left, node2.left)
         travel(node1.right, node2.right)
       }
@@ -31,18 +44,21 @@ class SubTree<T> extends BaseTreeAlgorithmT<T>{
       return identicalRes;
     }
 
+    // default false
     let subtreeRes: boolean = false;
-
     const travelMain = (node1: TreeNodeT<T> | null) => {
+      // early return & base case
       if(subtreeRes === true) return;
       if(node1 === null) return;
 
+      // current node value is the same and is identical
       // @ts-ignore
-      if( node1.val === this.tree2.root.value && isIdentical(node1, this.tree2.root.value)){
+      if( node1.val === this.tree2.root.value && isIdentical(node1, this.tree2.root)){
         subtreeRes = true
         return
       }
 
+      // continue left & right travel
       travelMain(node1.left)
       travelMain(node1.right)
     }

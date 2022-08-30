@@ -71,7 +71,7 @@ docker-compose up
   - [Is balanced binary tree](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/IsBalanced)
   - [Is symmetric binary tree](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/IsSymmetric)
   - [Kth Smallest Element in a BST]
-  - [Lowest common ancestor of BST]
+  - [Lowest common ancestor of BST](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/LCABST)
   - [Lowest common ancestor of BT]
   - [Level order traversal](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/LevelOrderTraversal)
   - [Maximum depth](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/MaxDepth)

@@ -1,5 +1,13 @@
 import TreeT, {Tree} from "./Tree";
 
+class BaseTreeAlgorithm {
+  tree: Tree
+
+  constructor(tree: Tree) {
+    this.tree = tree;
+  }
+}
+
 class BaseTreeAlgorithmT<T> {
   tree: TreeT<T>
 
@@ -15,13 +23,6 @@ class BaseTreeAlgorithmT<T> {
   }
 }
 
-class BaseTreeAlgorithm {
-  tree: Tree
-
-  constructor(tree: Tree) {
-    this.tree = tree;
-  }
-}
 
 export default BaseTreeAlgorithmT;
 

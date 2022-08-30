@@ -43,7 +43,7 @@ docker-compose up
 - [List](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/List)
   - [Add Two Numbers]
   - [Copy List with Random Pointer](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/List/CopyWithRandomPointer)
-  - [Find the Duplicate Number]
+  - [Find the Duplicate Number](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/List/FindDuplicateNumber)
   - [List Cycle](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/List/ListCycle)
   - [LRU Cache]
   - [Merge Two Lists](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/List/MergeTwoLists)

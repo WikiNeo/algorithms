@@ -23,12 +23,12 @@ class TreeNodeT<T> {
 /**
  * Simple TreeNode
  */
-class TreeNodeS {
+class TreeNode {
   val: number
-  left: TreeNodeS | null
-  right: TreeNodeS | null
+  left: TreeNode | null
+  right: TreeNode | null
 
-  constructor(val?: number, left?: TreeNodeS | null, right?: TreeNodeS | null) {
+  constructor(val?: number, left?: TreeNode | null, right?: TreeNode | null) {
     this.val = (val===undefined ? 0 : val)
     this.left = (left===undefined ? null : left)
     this.right = (right===undefined ? null : right)
@@ -38,6 +38,6 @@ class TreeNodeS {
 export default TreeNodeT;
 
 export {
-  TreeNodeS
+  TreeNode
 }
 

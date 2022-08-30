@@ -1,12 +1,12 @@
-import {BaseTreeAlgorithmS} from "../BaseTreeAlgorithm";
-import {TreeNodeS} from "../TreeNode";
+import {BaseTreeAlgorithm} from "../BaseTreeAlgorithm";
+import {TreeNode} from "../TreeNode";
 
 /**
  * We use a queue to store level info and check both ends
  */
-class IsSymmetric extends BaseTreeAlgorithmS {
+class IsSymmetric extends BaseTreeAlgorithm {
   exec(): boolean {
-    let queue: (TreeNodeS | null)[] = [];
+    let queue: (TreeNode | null)[] = [];
     // @ts-ignore
     queue.push(this.tree.root.left);
     // @ts-ignore
@@ -17,9 +17,9 @@ class IsSymmetric extends BaseTreeAlgorithmS {
 
       for(let i = 0; i < LEN/2; i++){
         // @ts-ignore
-        let front: TreeNodeS = queue.shift();
+        let front: TreeNode = queue.shift();
         // @ts-ignore
-        let end: TreeNodeS = queue.pop();
+        let end: TreeNode = queue.pop();
 
         if(front === null && end === null) continue;
         if( (front === null || end === null) || (front.val !== end.val)) return false;

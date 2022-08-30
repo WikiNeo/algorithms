@@ -9,13 +9,15 @@ class MaxDepth<T> extends BaseTreeAlgorithmT<T>{
 
   exec(): number {
 
-    const height = (node: TreeNodeT<T> | null): number => {
+    const depth = (node: TreeNodeT<T> | null): number => {
+      // base case
       if(node === null) return 0;
-      // left depth or right depth + 1
-      return Math.max(height(node.left), height(node.right)) + 1
+
+      // current depth is left depth or right depth + 1
+      return Math.max(depth(node.left), depth(node.right)) + 1
     }
 
-    return height(this.tree.root)
+    return depth(this.tree.root)
   }
 }
 

@@ -65,7 +65,7 @@ docker-compose up
 - [Tree](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree)
   - [Construct from level order traversal](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/ConstructFromLevelOrder)
   - [Construct Tree from Preorder and Inorder Traversal]
-  - [Count good node]
+  - [Count good node](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/CountGoodNode)
   - [Diameter](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/Diameter)
   - [Invert binary tree](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/InvertBinaryTree)
   - [Is balanced binary tree](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/IsBalanced)
@@ -75,7 +75,7 @@ docker-compose up
   - [Lowest common ancestor of BT]
   - [Level order traversal](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/LevelOrderTraversal)
   - [Maximum depth](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/MaxDepth)
-  - [Right side view]
+  - [Right side view](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/RightSideView)
   - [Same tree](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/SameTree)
   - [Subtree](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Tree/SubTree)
   - [Validate BST]

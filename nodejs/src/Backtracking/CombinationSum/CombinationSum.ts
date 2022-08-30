@@ -34,6 +34,34 @@ class CombinationSum {
 
     return res;
   }
+
+  exec2(): number[][] {
+    const res: number[][] = []
+    const LEN: number = this.candidates.length;
+
+    const cur: number[] = []
+    const dfs = (i: number, sum: number): void => {
+      // we have finsihed the iteration
+      if(i >= LEN || sum > this.target) return;
+      // we have found result
+      if(sum === this.target){
+        res.push([...cur])
+        return;
+      }
+
+      // include i and repeat
+      cur.push(this.candidates[i])
+      dfs(i, sum + this.candidates[i])
+
+      // not include i and continue
+      cur.pop()
+      dfs(i + 1, sum)
+    }
+
+    dfs(0, 0)
+
+    return res;
+  }
 }
 
 export default CombinationSum;

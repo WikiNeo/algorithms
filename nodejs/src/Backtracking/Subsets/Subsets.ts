@@ -11,6 +11,7 @@ class Subsets {
     let cur: number[] = [];
     const dfs = (i: number) => {
       if(i >= this.nums.length){
+        // make a copy of cur
         res.push([...cur])
         return
       }

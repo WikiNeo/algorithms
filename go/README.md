@@ -6,5 +6,7 @@ Some algorithms in go.
 
 - [array](https://github.com/mintwzy/algorithms/tree/main/go/src/array)
   - [Product of Array Except Self](https://github.com/mintwzy/algorithms/tree/main/go/src/array/product-of-array-except-self)
+- [bit]
+  - [Single Number]
 - [map](https://github.com/mintwzy/algorithms/tree/main/go/src/map)
   - [Contains Duplicate](https://github.com/mintwzy/algorithms/tree/main/go/src/map/contains-duplicate)

@@ -2,5 +2,5 @@
 
 ## Algorithms
 
-- [Dictionary]
+- [Hash]
   - [2 Sum]

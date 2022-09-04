@@ -1,8 +1,10 @@
 package invert_binary_tree
 
-import "algorithms/go/tree"
+import (
+	"algorithms/go/tree"
+)
 
-func invertTree(root *tree.TreeNode) *tree.TreeNode {
+func invertTree(root *tree.Node) *tree.Node {
 	// base case
 	if root == nil {
 		return nil

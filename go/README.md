@@ -10,5 +10,6 @@ Some algorithms in go.
   - [Single Number](https://github.com/mintwzy/algorithms/tree/main/go/src/bit/single_number)
 - [Map](https://github.com/mintwzy/algorithms/tree/main/go/src/map)
   - [Contains Duplicate](https://github.com/mintwzy/algorithms/tree/main/go/src/map/contains_duplicate)
-- [Tree]
-  - [Invert Binary Tree]
+- [Tree](https://github.com/mintwzy/algorithms/tree/main/go/src/tree)
+  - [Invert Binary Tree](https://github.com/mintwzy/algorithms/tree/main/go/src/tree/invert_binary_tree)
+  - [Max Depth]

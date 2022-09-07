@@ -13,4 +13,5 @@ Some algorithms in go.
 - [Tree](https://github.com/mintwzy/algorithms/tree/main/go/src/tree)
   - [Diameter of Binary Tree]
   - [Invert Binary Tree](https://github.com/mintwzy/algorithms/tree/main/go/src/tree/invert_binary_tree)
+  - [Is Balanced Binary Tree]
   - [Max Depth of Binary Tree](https://github.com/mintwzy/algorithms/tree/main/go/src/tree/max_depth)

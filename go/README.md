@@ -1,4 +1,4 @@
-# algorithms/go
+# Algorithms Go
 
 Some algorithms in go.
 
@@ -11,7 +11,10 @@ Some algorithms in go.
 - [Map](https://github.com/mintwzy/algorithms/tree/main/go/src/map)
   - [Contains Duplicate](https://github.com/mintwzy/algorithms/tree/main/go/src/map/contains_duplicate)
 - [Tree](https://github.com/mintwzy/algorithms/tree/main/go/src/tree)
-  - [Diameter of Binary Tree]
+  - [Balanced Binary Tree](https://github.com/mintwzy/algorithms/tree/main/go/src/tree/balanced)
+  - [Diameter of Binary Tree](https://github.com/mintwzy/algorithms/tree/main/go/src/tree/diameter)
+  - [Same Tree]
+  - [Subtree]
   - [Invert Binary Tree](https://github.com/mintwzy/algorithms/tree/main/go/src/tree/invert_binary_tree)
   - [Is Balanced Binary Tree]
   - [Max Depth of Binary Tree](https://github.com/mintwzy/algorithms/tree/main/go/src/tree/max_depth)

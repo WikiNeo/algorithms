@@ -1,0 +1,20 @@
+digraph {
+    A -> B [label=2, weight=2]
+    A -> C [label=5, weight=5]
+
+    B -> A [label=2, weight=2]
+    B -> D [label=3, weight=3]
+    B -> E [label=1, weight=1]
+    B -> F [label=1, weight=1]
+
+    C -> A [label=5, weight=5]
+    C -> F [label=3, weight=3]
+
+    D -> B [label=3, weight=3]
+
+    E -> B [label=4, weight=4]
+    E -> F [label=3, weight=3]
+
+    F -> C [label=3, weight=3]
+    F -> E [label=3, weight=3]
+}

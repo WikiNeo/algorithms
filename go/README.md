@@ -13,8 +13,9 @@ Some algorithms in go.
 - [Tree](https://github.com/mintwzy/algorithms/tree/main/go/src/tree)
   - [Balanced Binary Tree](https://github.com/mintwzy/algorithms/tree/main/go/src/tree/balanced)
   - [Diameter of Binary Tree](https://github.com/mintwzy/algorithms/tree/main/go/src/tree/diameter)
-  - [Same Tree]
-  - [Subtree]
+  - [Lowest Common Ancestor of a Binary Search Tree]
+  - [Same Tree](https://github.com/mintwzy/algorithms/tree/main/go/src/tree/same)
+  - [Subtree](https://github.com/mintwzy/algorithms/tree/main/go/src/tree/sub)
   - [Invert Binary Tree](https://github.com/mintwzy/algorithms/tree/main/go/src/tree/invert_binary_tree)
   - [Is Balanced Binary Tree]
   - [Max Depth of Binary Tree](https://github.com/mintwzy/algorithms/tree/main/go/src/tree/max_depth)

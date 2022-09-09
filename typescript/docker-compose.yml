@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  algorithms:
+    build:
+      context: .
+      dockerfile: ./.docker/Dockerfile
+    volumes:
+      - .:/algorithms-ts
+    command: yarn test

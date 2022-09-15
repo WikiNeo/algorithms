@@ -1,4 +1,5 @@
 mod dijkstra;
+mod graph;
 
 #[cfg(test)]
 mod tests {

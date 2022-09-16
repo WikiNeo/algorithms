@@ -3,6 +3,8 @@ from typing import List
 
 
 class KthLargest:
+    """Use min heap of size k to find k-th largest element in O(1) time.
+    """
 
     def __init__(self, k: int, nums: List[int]):
         self.k = k
@@ -20,7 +22,3 @@ class KthLargest:
             heapq.heappop(self.heap)
 
         return self.heap[0]
-
-# Your KthLargest object will be instantiated and called as such:
-# obj = KthLargest(k, nums)
-# param_1 = obj.add(val)

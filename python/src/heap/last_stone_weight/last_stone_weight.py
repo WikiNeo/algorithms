@@ -3,6 +3,9 @@ from typing import List
 
 
 class Solution:
+    """Maintain a max heap by updating it with first 2 largest values
+
+    """
     def last_stone_weight(self, stones: List[int]) -> int:
         # reverse the values in stones so we can create max heap
         stones = [-stone for stone in stones]

@@ -56,8 +56,7 @@ def dijkstra(graph, start, end):
         for v, c in graph[u]:
             if v in visited:
                 continue
-            next = cost + c
-            heapq.heappush(heap, (next, v))
+            heapq.heappush(heap, (cost + c, v))
     return -1
 
 

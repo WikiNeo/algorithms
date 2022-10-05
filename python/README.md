@@ -2,6 +2,8 @@
 
 ## Algorithms
 
+- [Backtracking](https://github.com/mintwzy/algorithms/tree/main/python/src/backtracking)
+  - [Subsets](https://github.com/mintwzy/algorithms/tree/main/python/src/backtracking/subsets)
 - [Graph](https://github.com/mintwzy/algorithms/tree/main/python/src/graph)
   - [Dijkstra](https://github.com/mintwzy/algorithms/tree/main/python/src/graph/dijkstra)
 - [Hash](https://github.com/mintwzy/algorithms/tree/main/python/src/hash)

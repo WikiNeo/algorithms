@@ -3,6 +3,7 @@
 ## Algorithms
 
 - [Backtracking](https://github.com/mintwzy/algorithms/tree/main/python/src/backtracking)
+  - [Combination Sum](https://github.com/mintwzy/algorithms/tree/main/python/src/backtracking/combination_sum)
   - [Subsets](https://github.com/mintwzy/algorithms/tree/main/python/src/backtracking/subsets)
 - [Graph](https://github.com/mintwzy/algorithms/tree/main/python/src/graph)
   - [Dijkstra](https://github.com/mintwzy/algorithms/tree/main/python/src/graph/dijkstra)

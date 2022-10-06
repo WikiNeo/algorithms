@@ -8,7 +8,7 @@ class Solution:
 
         cur = []
 
-        def exec(i, acc):
+        def dfs(i, acc):
             if i >= LEN or acc > target:
                 return
             if acc == target:
@@ -17,12 +17,12 @@ class Solution:
 
             # take current value and stay the index
             cur.append(candidates[i])
-            exec(i, acc + candidates[i])
+            dfs(i, acc + candidates[i])
 
             # not take current value and continue
             cur.pop()
-            exec(i + 1, acc)
+            dfs(i + 1, acc)
 
-        exec(0, 0)
+        dfs(0, 0)
 
         return res

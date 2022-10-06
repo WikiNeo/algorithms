@@ -8,19 +8,19 @@ class Solution:
 
         cur = []
 
-        def exec(i: int):
+        def dfs(i: int):
             if i == LEN:
                 res.append(cur.copy())
                 return
 
             # add current element to cur
             cur.append(nums[i])
-            exec(i + 1)
+            dfs(i + 1)
 
             # not adding current element to cur
             cur.pop()
-            exec(i + 1)
+            dfs(i + 1)
 
-        exec(0)
+        dfs(0)
 
         return res

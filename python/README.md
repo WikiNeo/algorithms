@@ -7,6 +7,7 @@
   - [Combination Sum II](https://github.com/mintwzy/algorithms/tree/main/python/src/backtracking/combination_sum_ii)
   - [Subsets](https://github.com/mintwzy/algorithms/tree/main/python/src/backtracking/subsets)
   - [Subsets II](https://github.com/mintwzy/algorithms/tree/main/python/src/backtracking/subsets_ii)
+  - [Word Search](https://github.com/mintwzy/algorithms/tree/main/python/src/backtracking/word_search)
 - [Graph](https://github.com/mintwzy/algorithms/tree/main/python/src/graph)
   - [Dijkstra](https://github.com/mintwzy/algorithms/tree/main/python/src/graph/dijkstra)
 - [Hash](https://github.com/mintwzy/algorithms/tree/main/python/src/hash)

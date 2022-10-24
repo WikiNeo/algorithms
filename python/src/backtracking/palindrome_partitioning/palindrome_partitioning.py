@@ -25,8 +25,8 @@ class Solution:
             for j in range(i, LEN):
                 if self.isPalin(s, i, j):
                     part.append(s[i:j + 1])
-                    dfs(j + 1)
-                    part.pop()
+                    dfs(j + 1)  # continue from j + 1
+                    part.pop()  # backtracking
 
         dfs(0)
 

@@ -1,7 +1,17 @@
 # Algorithms Python
 
+## Unittest
+
+```shell
+python -m unittest discover tests/*
+
+python -m unittest tests/arrays/test_delete_nth.py
+```
+
 ## Algorithms
 
+- [Array]()
+  - [Delete Nth]()
 - [Backtracking](https://github.com/mintwzy/algorithms/tree/main/python/src/backtracking)
   - [Combination Sum](https://github.com/mintwzy/algorithms/tree/main/python/src/backtracking/combination_sum)
   - [Combination Sum II](https://github.com/mintwzy/algorithms/tree/main/python/src/backtracking/combination_sum_ii)
@@ -24,3 +34,7 @@
   - [Kth Largest Element in an Array](https://github.com/mintwzy/algorithms/tree/main/python/src/heap/kth_largest_element_in_an_array)
   - [Last Stone Weight](https://github.com/mintwzy/algorithms/tree/main/python/src/heap/last_stone_weight)
   - [Task Scheduler](https://github.com/mintwzy/algorithms/tree/main/python/src/heap/task_scheduler)
+
+## Reference
+
+- [https://github.com/keon/algorithms](https://github.com/keon/algorithms)

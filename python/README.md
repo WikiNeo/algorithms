@@ -10,8 +10,9 @@ python -m unittest tests/arrays/test_delete_nth.py
 
 ## Algorithms
 
-- [Array]()
-  - [Delete Nth]()
+- [Array](https://github.com/mintwzy/algorithms/tree/main/python/src/arrays)
+  - [Delete Nth](https://github.com/mintwzy/algorithms/blob/main/python/src/arrays/delete_nth.py)
+  - [Flatten](https://github.com/mintwzy/algorithms/blob/main/python/src/arrays/flatten.py)
 - [Backtracking](https://github.com/mintwzy/algorithms/tree/main/python/src/backtracking)
   - [Combination Sum](https://github.com/mintwzy/algorithms/tree/main/python/src/backtracking/combination_sum)
   - [Combination Sum II](https://github.com/mintwzy/algorithms/tree/main/python/src/backtracking/combination_sum_ii)

@@ -3,9 +3,7 @@
 ## Unittest
 
 ```shell
-python -m unittest discover tests/*
-
-python -m unittest tests/arrays/test_delete_nth.py
+./test.sh
 ```
 
 ## Algorithms
@@ -35,6 +33,8 @@ python -m unittest tests/arrays/test_delete_nth.py
   - [Kth Largest Element in an Array](https://github.com/mintwzy/algorithms/tree/main/python/src/heap/kth_largest_element_in_an_array)
   - [Last Stone Weight](https://github.com/mintwzy/algorithms/tree/main/python/src/heap/last_stone_weight)
   - [Task Scheduler](https://github.com/mintwzy/algorithms/tree/main/python/src/heap/task_scheduler)
+- [Two Pointers]()
+  - [Length of Longest Subsequence whose difference sum between element is even]()
 
 ## Reference
 

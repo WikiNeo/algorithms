@@ -1,3 +1,8 @@
+"""
+Find minimum number of insertion needed to make a string Palindrome
+"""
+
+
 def min_insertion(s: str, n: int) -> int:
 
     # know what the table tries to represent

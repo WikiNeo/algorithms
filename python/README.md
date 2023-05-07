@@ -22,6 +22,8 @@
   - [Word Search](https://github.com/mintwzy/algorithms/tree/main/python/src/backtracking/word_search)
 - [Dynamic Programming](https://github.com/mintwzy/algorithms/tree/main/python/src/dp)
   - [Climbing Stairs](https://github.com/mintwzy/algorithms/blob/main/python/src/dp/climbing_stairs.py)
+  - [House Robber](https://github.com/mintwzy/algorithms/blob/main/python/src/dp/house_robber.py)
+  - [House Robber 2](https://github.com/mintwzy/algorithms/blob/main/python/src/dp/house_robber_2.py)
   - [Min Cost Climbing Stairs](https://github.com/mintwzy/algorithms/blob/main/python/src/dp/min_cost_climbing_stairs.py)
   - [Minimum Insertion to make a String Palindrome](https://github.com/mintwzy/algorithms/blob/main/python/src/dp/min_insertion.py)
 - [Graph](https://github.com/mintwzy/algorithms/tree/main/python/src/graph)

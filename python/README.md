@@ -39,8 +39,9 @@
   - [Kth Largest Element in an Array](https://github.com/mintwzy/algorithms/tree/main/python/src/heap/kth_largest_element_in_an_array)
   - [Last Stone Weight](https://github.com/mintwzy/algorithms/tree/main/python/src/heap/last_stone_weight)
   - [Task Scheduler](https://github.com/mintwzy/algorithms/tree/main/python/src/heap/task_scheduler)
-- [Two Pointers]()
-  - [Length of Longest Subsequence whose difference sum between element is even]()
+- [Two Pointers](https://github.com/mintwzy/algorithms/tree/main/python/src/two_pointers)
+  - [Longest Palindrome](https://github.com/mintwzy/algorithms/blob/main/python/src/two_pointers/longest_palindrome.py)
+  - [Length of Longest Subsequence whose difference sum between element is even](https://github.com/mintwzy/algorithms/blob/main/python/src/two_pointers/longest_subsequence_even_diff_sum.py)
 
 ## Reference
 

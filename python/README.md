@@ -29,7 +29,9 @@
 - [Graph](https://github.com/mintwzy/algorithms/tree/main/python/src/graph)
   - [Clone Graph](https://github.com/mintwzy/algorithms/tree/main/python/src/graph/clone-graph)
   - [Dijkstra](https://github.com/mintwzy/algorithms/tree/main/python/src/graph/dijkstra)
+  - [Max Area of Islands](https://github.com/mintwzy/algorithms/tree/main/python/src/graph/max-area-of-island)
   - [Number of Islands](https://github.com/mintwzy/algorithms/tree/main/python/src/graph/number-of-islands)
+  - [Min Cost to Connect All Points](https://github.com/mintwzy/algorithms/blob/main/python/src/graph/min_cost_to_connect_all_points.py)
 - [Hash](https://github.com/mintwzy/algorithms/tree/main/python/src/hash)
   - [2 Sum](https://github.com/mintwzy/algorithms/tree/main/python/src/hash/two_sum)
 - [Heap](https://github.com/mintwzy/algorithms/tree/main/python/src/heap)
@@ -42,6 +44,7 @@
 - [Two Pointers](https://github.com/mintwzy/algorithms/tree/main/python/src/two_pointers)
   - [Longest Palindrome](https://github.com/mintwzy/algorithms/blob/main/python/src/two_pointers/longest_palindrome.py)
   - [Length of Longest Subsequence whose difference sum between element is even](https://github.com/mintwzy/algorithms/blob/main/python/src/two_pointers/longest_subsequence_even_diff_sum.py)
+  - [Palindromic Substrings](https://github.com/mintwzy/algorithms/blob/main/python/src/two_pointers/palindromic_substrings.py)
 
 ## Reference
 

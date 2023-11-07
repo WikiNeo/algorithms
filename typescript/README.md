@@ -1,6 +1,6 @@
 # Algorithms TypeScript
 
-This project has algorithms in TypeScript with test. 
+This project has algorithms in TypeScript with test.
 
 ## Test
 
@@ -93,7 +93,7 @@ docker-compose up
 
 ## Graphviz
 
-The graph/tree/list are drawn using Graphviz for easy visualization. 
+The graph/tree/list are drawn using Graphviz for easy visualization.
 
 To generate `.dot` graph to `.png` file
 

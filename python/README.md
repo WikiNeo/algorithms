@@ -1,5 +1,13 @@
 # Algorithms Python
 
+## Development
+
+```shell
+pip install pipenv
+pipenv install
+pre-commit install
+```
+
 ## Unittest
 
 ```shell

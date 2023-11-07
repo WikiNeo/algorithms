@@ -68,19 +68,3 @@ def climb_stairs_tabulation(n: int) -> int:
         step_to_ways[i] = step_to_ways[i - 1] + step_to_ways[i - 2]
 
     return step_to_ways[n]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

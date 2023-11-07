@@ -40,4 +40,3 @@ export default TreeNodeT;
 export {
   TreeNode
 }
-

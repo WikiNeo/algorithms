@@ -92,4 +92,3 @@ describe('topological sort', () => {
     })
   })
 })
-

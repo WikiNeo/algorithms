@@ -65,4 +65,3 @@ if __name__ == '__main__':
     ]
     solution2: Solution = Solution()
     assert solution2.numIslands(grid2) == 3
-

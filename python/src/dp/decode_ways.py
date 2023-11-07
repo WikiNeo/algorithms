@@ -48,7 +48,7 @@ s contains only digits and may contain leading zero(s).
 class Solution:
     def numDecodings(self, s: str) -> int:
         # speical case hanlding
-        if s[0] == '0': 
+        if s[0] == '0':
             return 0
 
         # initialize
@@ -66,4 +66,3 @@ class Solution:
                 table[i] = table[i + 1]
 
         return table[0]
-

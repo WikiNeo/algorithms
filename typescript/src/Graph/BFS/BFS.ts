@@ -6,7 +6,7 @@ class BFS<T> {
   startNode: GraphNode<T>
 
   resultT: T[];
-  
+
   constructor(graph: Graph<T>, startNode: GraphNode<T>) {
     this.graph = graph;
     this.startNode = startNode;

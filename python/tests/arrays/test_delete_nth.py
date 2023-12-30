@@ -2,6 +2,7 @@ import unittest
 
 from src.arrays import delete_nth
 
+
 class TestDeleteNth(unittest.TestCase):
     def test_delete_nth(self):
         self.assertListEqual(delete_nth([20, 37, 20, 21, 37, 21, 21], n=1), [20, 37, 21])

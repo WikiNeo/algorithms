@@ -14,6 +14,12 @@ pre-commit install
 ./test.sh
 ```
 
+## pre-commit
+
+```shell
+pre-commit run --all-files
+```
+
 ## Reference
 
 - [https://github.com/keon/algorithms](https://github.com/keon/algorithms)

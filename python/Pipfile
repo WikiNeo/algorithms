@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 pre-commit = "*"
+flake8 = "*"
 
 [dev-packages]
 

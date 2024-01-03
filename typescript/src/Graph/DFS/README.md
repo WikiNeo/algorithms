@@ -2,8 +2,8 @@
 
 ## Introduction to algorithms
 
-![DFS](doc/DFS_introduction_to_algorithms.png)
+![DFS](_doc/DFS_introduction_to_algorithms.png)
 
 ## Wikipedia
 
-![DFS](doc/DFS_Wikipedia.png)
+![DFS](_doc/DFS_Wikipedia.png)

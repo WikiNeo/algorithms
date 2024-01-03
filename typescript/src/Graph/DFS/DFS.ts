@@ -24,9 +24,12 @@ class DFS<T>{
             recursively call DFS(G, w)
    */
   execRecursive(node: GraphNode<T>){
+    // mark node as visited
     this.visited.add(node)
+    // store visited result
     this.resultT.push(node.value)
 
+    // recursively visiting the not visited neighbours
     for(let neighbourNode of this.graph.getNeighbours(node)){
       if(!this.visited.has(neighbourNode)){
         this.execRecursive(neighbourNode)

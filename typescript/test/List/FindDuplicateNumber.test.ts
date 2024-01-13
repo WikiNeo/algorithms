@@ -1,6 +1,6 @@
 import {describe, it} from "mocha";
 import {expect} from 'chai'
-import FindDuplicateNumber from "../../../src/List/FindDuplicateNumber/FindDuplicateNumber";
+import FindDuplicateNumber from "../../src/List/FindDuplicateNumber/FindDuplicateNumber";
 
 describe('Find duplicate number', () => {
   describe('exec', () => {

@@ -9,6 +9,6 @@ class TestMinCostClimbingStairs(unittest.TestCase):
         res = min_cost_climbing_stairs(cost)
         self.assertEqual(res, 15)
 
-        cost = [1,100,1,1,1,100,1,1,100,1]
+        cost = [1, 100, 1, 1, 1, 100, 1, 1, 100, 1]
         res = min_cost_climbing_stairs(cost)
         self.assertEqual(res, 6)

@@ -15,10 +15,10 @@ class Node:
 
 class Solution:
     @staticmethod
-    def clone_graph(node: 'Node') -> 'Node':
+    def clone_graph(node: "Node") -> "Node":
         old_to_new = {}
 
-        def dfs(_node: 'Node'):
+        def dfs(_node: "Node"):
             """For a given node in old graph, return the mapping new node.
 
             Side effects:

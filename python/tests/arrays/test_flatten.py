@@ -2,6 +2,7 @@ import unittest
 
 from src.arrays import flatten, flatten_iter
 
+
 class TestFlatten(unittest.TestCase):
 
     def test_flatten(self):

@@ -24,11 +24,11 @@ class Solution:
             nums[pivot_ptr], nums[right] = nums[right], nums[pivot_ptr]
 
             # in the end, we call quick_select recursively
-            if expected_index < pivot_ptr:      # quick select to the left of pivot ptr
+            if expected_index < pivot_ptr:  # quick select to the left of pivot ptr
                 return quick_select(left, pivot_ptr - 1)
-            elif expected_index > pivot_ptr:    # quick select to the right of pivot ptr
+            elif expected_index > pivot_ptr:  # quick select to the right of pivot ptr
                 return quick_select(pivot_ptr + 1, right)
-            else:                               # we find the result!
+            else:  # we find the result!
                 return nums[pivot_ptr]
 
         return quick_select(0, len(nums) - 1)

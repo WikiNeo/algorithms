@@ -7,7 +7,7 @@ def min_insertion(s: str, n: int) -> int:
 
     # know what the table tries to represent
     # table[i][j] stores min number of insertion need for s[i:j+1]
-    table = [[0]*n for _ in range(n)]
+    table = [[0] * n for _ in range(n)]
 
     # think of how the table is constructed based on the recursive formula
     for gap in range(1, n):

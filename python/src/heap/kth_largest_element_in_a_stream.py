@@ -3,8 +3,7 @@ from typing import List
 
 
 class KthLargest:
-    """Maintain min heap of size k to find k-th largest element in O(1) time.
-    """
+    """Maintain min heap of size k to find k-th largest element in O(1) time."""
 
     def __init__(self, k: int, nums: List[int]):
         self.k = k

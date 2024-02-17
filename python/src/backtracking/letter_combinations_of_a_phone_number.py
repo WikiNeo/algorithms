@@ -7,14 +7,14 @@ class Solution:
             return []
 
         num_to_chars = {
-            2: 'abc',
-            3: 'def',
-            4: 'ghi',
-            5: 'jkl',
-            6: 'mno',
-            7: 'pqrs',
-            8: 'tuv',
-            9: 'wxyz'
+            2: "abc",
+            3: "def",
+            4: "ghi",
+            5: "jkl",
+            6: "mno",
+            7: "pqrs",
+            8: "tuv",
+            9: "wxyz",
         }
         LEN: int = len(digits)
         res: List[str] = []
@@ -22,7 +22,7 @@ class Solution:
 
         def dfs(i):
             if i >= LEN:
-                res.append(''.join(cur.copy()))
+                res.append("".join(cur.copy()))
                 return
 
             for char in num_to_chars[int(digits[i])]:

@@ -20,10 +20,12 @@ class Solution:
                 return False
 
             visited.add((row, col))
-            res = (dfs(row, col - 1, i + 1) or
-                   dfs(row - 1, col, i + 1) or
-                   dfs(row, col + 1, i + 1) or
-                   dfs(row + 1, col, i + 1))
+            res = (
+                dfs(row, col - 1, i + 1)
+                or dfs(row - 1, col, i + 1)
+                or dfs(row, col + 1, i + 1)
+                or dfs(row + 1, col, i + 1)
+            )
             visited.remove((row, col))
 
             return res
@@ -35,7 +37,7 @@ class Solution:
 
         for r in range(ROWS):
             for c in range(COLS):
-                if dfs(r, c, 0) == True:
+                if dfs(r, c, 0) is True:
                     return True
 
         return False

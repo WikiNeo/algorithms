@@ -38,6 +38,7 @@ Output: 3
 - We can rob nums[:-1]
 - Special case nums[0]
 """
+
 from typing import List
 
 

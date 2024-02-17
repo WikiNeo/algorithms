@@ -21,6 +21,7 @@ The total cost is 15.
 - The corresponding cost is table[i - 1] + cost[i - 1] and table[i - 2] + cost[i - 2]
 - We should update the table with Min value of above
 """
+
 from typing import List
 
 

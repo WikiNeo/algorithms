@@ -20,11 +20,11 @@ class Solution:
             """
 
             # fail conditions
-            if row < 0 or row >= ROWS or col < 0 or col >= COLS: # out of boudary
+            if row < 0 or row >= ROWS or col < 0 or col >= COLS:  # out of boudary
                 return False
-            if grid[row][col] == '0':   # find water
+            if grid[row][col] == "0":  # find water
                 return False
-            if (row, col) in visited:   # visited already
+            if (row, col) in visited:  # visited already
                 return False
 
             # mark (row, col) as visited
@@ -47,21 +47,21 @@ class Solution:
         return count
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     grid1 = [
-      ["1","1","1","1","0"],
-      ["1","1","0","1","0"],
-      ["1","1","0","0","0"],
-      ["0","0","0","0","0"]
+        ["1", "1", "1", "1", "0"],
+        ["1", "1", "0", "1", "0"],
+        ["1", "1", "0", "0", "0"],
+        ["0", "0", "0", "0", "0"],
     ]
     solution1: Solution = Solution()
     assert solution1.numIslands(grid1) == 1
 
     grid2 = [
-      ["1","1","0","0","0"],
-      ["1","1","0","0","0"],
-      ["0","0","1","0","0"],
-      ["0","0","0","1","1"]
+        ["1", "1", "0", "0", "0"],
+        ["1", "1", "0", "0", "0"],
+        ["0", "0", "1", "0", "0"],
+        ["0", "0", "0", "1", "1"],
     ]
     solution2: Solution = Solution()
     assert solution2.numIslands(grid2) == 3

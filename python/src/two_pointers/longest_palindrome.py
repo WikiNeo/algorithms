@@ -24,6 +24,8 @@ Output: "bb"
 - There are two ways we can check if a substring is palindromic, from middle or from both end
 - Note the length of the palindrome can be ood or even
 """
+
+
 def longest_palindrome(s: str) -> str:
     res = ""
     res_len = 0
@@ -36,7 +38,7 @@ def longest_palindrome(s: str) -> str:
             cur_len = r - l + 1
             if cur_len > res_len:
                 res_len = cur_len
-                res = s[l:r + 1]
+                res = s[l : r + 1]
             l -= 1
             r += 1
 
@@ -48,7 +50,7 @@ def longest_palindrome(s: str) -> str:
             cur_len = r - l + 1
             if cur_len > res_len:
                 res_len = cur_len
-                res = s[l:r + 1]
+                res = s[l : r + 1]
             l -= 1
             r += 1
 

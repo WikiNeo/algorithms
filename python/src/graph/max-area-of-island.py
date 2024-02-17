@@ -7,8 +7,7 @@ class Solution:
         visited = set()
 
         def getArea(row, col):
-            """get the island area starting from (row, col)
-            """
+            """get the island area starting from (row, col)"""
 
             # Stop condition
             if (
@@ -25,7 +24,13 @@ class Solution:
             visited.add((row, col))
 
             # recursively get the result
-            return 1 + getArea(row, col - 1) + getArea(row - 1, col) + getArea(row, col + 1) + getArea(row + 1, col)
+            return (
+                1
+                + getArea(row, col - 1)
+                + getArea(row - 1, col)
+                + getArea(row, col + 1)
+                + getArea(row + 1, col)
+            )
 
         # driver functions here
         area = 0

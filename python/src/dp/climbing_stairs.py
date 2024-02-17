@@ -59,7 +59,7 @@ def climb_stairs_tabulation(n: int) -> int:
         return n
 
     # table to store
-    step_to_ways = [0]*(n + 1)
+    step_to_ways = [0] * (n + 1)
     step_to_ways[1] = 1
     step_to_ways[2] = 2
 

@@ -45,24 +45,24 @@ Explanation: "06" cannot be mapped to "F" because of the leading zero ("6" is di
 1 <= s.length <= 100
 s contains only digits and may contain leading zero(s).
 """
+
+
 class Solution:
     def numDecodings(self, s: str) -> int:
         # speical case hanlding
-        if s[0] == '0':
+        if s[0] == "0":
             return 0
 
         # initialize
         LEN = len(s)
-        table = [0]*(LEN + 1)
+        table = [0] * (LEN + 1)
         table[LEN] = 1
 
         for i in range(LEN - 1, -1, -1):
             # if current and next digit are valid
-            if i + 1 < LEN and (
-                (s[i] == '1') or (s[i] + s[i + 1] <= "26")
-            ):
+            if i + 1 < LEN and ((s[i] == "1") or (s[i] + s[i + 1] <= "26")):
                 table[i] = table[i + 1] + table[i + 2]
-            elif s[i] != '0':  # only current digit is valid
+            elif s[i] != "0":  # only current digit is valid
                 table[i] = table[i + 1]
 
         return table[0]

@@ -47,6 +47,7 @@ data = [1, 3, 5, 7]
 # diff  1, 2
 # sum 3
 
+
 def longest_subsequence_even_diff_sum(arr):
     """Find the longest sorted subsequence length of an array, where the diff between each element
     in the sorted one is even

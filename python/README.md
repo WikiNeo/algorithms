@@ -17,6 +17,7 @@ pre-commit install
 ## pre-commit
 
 ```shell
+pre-commit autoupdate
 pre-commit run --all-files
 ```
 

@@ -34,6 +34,7 @@ Total amount you can rob = 2 + 9 + 1 = 12.
 
 - rob3 = max(rob1 + num3, rob2)
 """
+
 from typing import List
 
 

@@ -35,7 +35,7 @@ def count_substrings(s: str) -> int:
     res = 0
 
     for i in range(len(s)):
-        res += count_pali(s, i, i)      # odd length
+        res += count_pali(s, i, i)  # odd length
         res += count_pali(s, i, i + 1)  # even length
 
     return res

@@ -66,3 +66,24 @@ class Solution:
                 table[i] = table[i + 1]
 
         return table[0]
+
+    def num_decodings_v2(self, s: str) -> int:
+        if s[0] == "0":
+            return 0
+        LEN = len(s)
+        if LEN == 1:
+            return 1
+
+        count = {-1: 1, 0: 1}
+        for i in range(1, LEN):
+            if s[i] == "0":
+                if s[i - 1] == "1" or s[i - 1] == "2":
+                    count[i] = count[i - 2]
+                else:
+                    count[i] = 0
+            elif s[i - 1] == "1" or (s[i - 1] == "2" and s[i] in "0123456"):
+                count[i] = count[i - 1] + count[i - 2]
+            else:
+                count[i] = count[i - 1]
+
+        return count[LEN - 1]

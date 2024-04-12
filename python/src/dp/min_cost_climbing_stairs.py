@@ -27,8 +27,9 @@ from typing import List
 
 def min_cost_climbing_stairs(cost: List[int]) -> int:
     N = len(cost)
-    table = [0] * (N + 1)
+    min_cost = [0] * (N + 1)
     for i in range(2, N + 1):
-        table[i] = min(table[i - 2] + cost[i - 2], table[i - 1] + cost[i - 1])
+        # the min cost to climb to i is the min cost to climb either from i - 1 or i - 2
+        min_cost[i] = min(min_cost[i - 2] + cost[i - 2], min_cost[i - 1] + cost[i - 1])
 
-    return table[N]
+    return min_cost[N]

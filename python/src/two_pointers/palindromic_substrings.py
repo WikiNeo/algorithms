@@ -55,3 +55,25 @@ def count_pali(s, left, right):
         right += 1
 
     return res
+
+
+def count_substrings2(self, s: str) -> int:
+    LEN = len(s)
+    if LEN == 1:
+        return 1
+
+    odd_count = 0
+    for i in range(0, LEN):
+        left, right = i, i
+        while left >= 0 and right < LEN and s[left] == s[right]:
+            odd_count += 1
+            left -= 1
+            right += 1
+
+    even_count = 0
+    for i in range(1, LEN):
+        left, right = i - 1, i
+        while left >= 0 and right < LEN and s[left] == s[right]:
+            even_count += 1
+            left -= 1
+            right += 1

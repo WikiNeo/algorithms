@@ -55,3 +55,45 @@ def longest_palindrome(s: str) -> str:
             r += 1
 
     return res
+
+
+def longest_palindrome2(self, s: str) -> str:
+    LEN = len(s)
+    if LEN == 1:
+        return s[0]
+
+    odd_max_len = 1
+    odd_res = s[0]
+    for i in range(1, LEN):
+        # odd length case
+        left, right = i, i
+        while left >= 0 and right < LEN:
+            if s[left] != s[right]:
+                break
+            else:
+                cur_len = right - left + 1
+                if cur_len > odd_max_len:
+                    odd_max_len = cur_len
+                    odd_res = s[left : right + 1]
+            left -= 1
+            right += 1
+
+    even_max_len = 1
+    even_res = s[0]
+    for i in range(1, LEN):
+        left, right = i - 1, i
+        while left >= 0 and right < LEN:
+            if s[left] != s[right]:
+                break
+            else:
+                cur_len = right - left + 1
+                if cur_len > even_max_len:
+                    even_max_len = cur_len
+                    even_res = s[left : right + 1]
+            left -= 1
+            right += 1
+
+    if odd_max_len > even_max_len:
+        return odd_res
+    else:
+        return even_res

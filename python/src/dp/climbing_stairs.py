@@ -34,22 +34,19 @@ Explanation: There are three ways to climb to the top.
 
 
 def climb_stairs_memoization(n: int) -> int:
-    step_to_ways = {}
+    step_to_ways = {1: 1, 2: 2}
 
     def solve(steps):
-        # base case
-        if steps == 1 or steps == 2:
-            return steps
-        # cache case
+        # cache hit case
         if steps in step_to_ways:
             return step_to_ways[steps]
 
-        # calculate res and update cache
-        res = solve(steps - 1) + solve(steps - 2)
-        step_to_ways[steps] = res
+        # cache miss case
+        # we can reach steps from either steps - 1 or steps - 2
+        step_to_ways[steps] = solve(steps - 1) + solve(steps - 2)
 
-        # return cache
-        return res
+        # return result
+        return step_to_ways[steps]
 
     return solve(n)
 
@@ -65,6 +62,7 @@ def climb_stairs_tabulation(n: int) -> int:
 
     # update table based on the formula
     for i in range(3, n + 1):
+        # we can reach steps from either steps - 1 or steps - 2
         step_to_ways[i] = step_to_ways[i - 1] + step_to_ways[i - 2]
 
     return step_to_ways[n]

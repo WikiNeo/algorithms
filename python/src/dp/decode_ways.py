@@ -74,6 +74,7 @@ class Solution:
         if LEN == 1:
             return 1
 
+        # -1: 1 hacking
         count = {-1: 1, 0: 1}
         for i in range(1, LEN):
             if s[i] == "0":

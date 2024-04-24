@@ -54,3 +54,29 @@ def helper(nums):
         rob1 = rob2
         rob2 = new_rob
     return rob2
+
+
+def rob2_dp(self, nums: List[int]) -> int:
+    LEN = len(nums)
+    if LEN == 1:
+        return nums[0]
+    if LEN == 2:
+        return max(nums[0], nums[1])
+
+    # don't rob first, we can rob last
+    res1 = [0] * LEN
+    res1[0] = 0
+    res1[1] = nums[1]
+    # rob first, we can't rob last
+    res2 = [0] * LEN
+    res2[0] = nums[0]
+    res2[1] = nums[0]
+
+    for i in range(2, LEN):
+        if i == LEN - 1:
+            res2[i] = res2[i - 1]
+        else:
+            res2[i] = max(res2[i - 2] + nums[i], res2[i - 1])
+        res1[i] = max(res1[i - 2] + nums[i], res1[i - 1])
+
+    return max(res1[LEN - 1], res2[LEN - 1])

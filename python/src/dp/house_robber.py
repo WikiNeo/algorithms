@@ -49,3 +49,21 @@ def rob(nums: List[int]) -> int:
         rob2 = temp
 
     return rob2
+
+
+def rob_dp(self, nums: List[int]) -> int:
+    LEN = len(nums)
+    if LEN == 1:
+        return nums[0]
+    if LEN == 2:
+        return max(nums[0], nums[1])
+
+    # res represents the max value we can rob at i
+    res = [0] * LEN
+    res[0] = nums[0]
+    res[1] = max(nums[0], nums[1])
+    for i in range(2, LEN):
+        # we have two choices at i, one is to rob it, the other is to skip it.
+        res[i] = max(res[i - 2] + nums[i], res[i - 1])
+
+    return res[LEN - 1]

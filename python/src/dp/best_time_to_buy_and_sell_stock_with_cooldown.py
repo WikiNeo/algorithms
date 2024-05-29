@@ -2,7 +2,7 @@ from typing import List
 
 
 class Solution:
-    def maxProfit(self, prices: List[int]) -> int:
+    def max_profit(self, prices: List[int]) -> int:
         """
         on day i, we can either own a stock or not_own a stock, let's use own[i] and not_own[i]
         to represent the max profit we can have on day i.

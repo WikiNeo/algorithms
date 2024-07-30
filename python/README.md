@@ -3,8 +3,9 @@
 ## Development
 
 ```shell
-pip install pipenv
-pipenv install
+uv venv
+source .venv/bin/activate
+uv pip install -r requirements.txt
 pre-commit install
 ```
 

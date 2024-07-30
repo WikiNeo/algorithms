@@ -57,7 +57,7 @@ def longest_palindrome(s: str) -> str:
     return res
 
 
-def longest_palindrome2(self, s: str) -> str:
+def longest_palindrome2(s: str) -> str:
     LEN = len(s)
     if LEN == 1:
         return s[0]

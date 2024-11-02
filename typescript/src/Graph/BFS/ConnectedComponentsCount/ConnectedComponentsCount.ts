@@ -64,3 +64,5 @@ console.log(connectedComponentsCountBFS({
 }) === 1); // -> 1
 
 console.log(connectedComponentsCountBFS({}) === 0); // -> 0
+
+export { }

@@ -1,10 +1,4 @@
-"""
-# Definition for a Node.
-class Node:
-    def __init__(self, val = 0, neighbors = None):
-        self.val = val
-        self.neighbors = neighbors if neighbors is not None else []
-"""
+from typing import Optional
 
 
 class Node:
@@ -15,23 +9,17 @@ class Node:
 
 class Solution:
     @staticmethod
-    def clone_graph(node: "Node") -> "Node":
+    def clone_graph(node: Optional["Node"]) -> Optional["Node"]:
         old_to_new = {}
 
         def dfs(_node: "Node"):
-            """For a given node in old graph, return the mapping new node.
-
-            Side effects:
-                1. create the new node if it doesn't exist
-                2. update the old to new map
-                3. update the neighbour of new node
-            """
+            """For a given node in old graph, return a copy of the new node."""
 
             # return the new node if we already have the mapping
             if _node in old_to_new:
                 return old_to_new[_node]
 
-            # create the new node if it doesn't exist, and update the mapping
+            # create the new node and update the mapping
             copy = Node(_node.val)
             old_to_new[_node] = copy
 

@@ -1,3 +1,5 @@
+"""Multiple source BFS with preprocessing"""
+
 from typing import List
 from collections import deque
 

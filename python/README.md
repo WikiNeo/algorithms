@@ -1,25 +1,27 @@
 # Algorithms Python
 
+## Setup
+
+```shell
+uv init
+uv add --dev pre-commit
+pre-commit install
+# Auto-update pre-commit config to the latest repos' versions.
+pre-commit autoupdate
+pre-commit run --all-files
+```
+
 ## Development
 
 ```shell
-uv venv
 source .venv/bin/activate
-uv pip install -r requirements.txt
-pre-commit install
+uv sync
 ```
 
-## Unittest
+## Test
 
 ```shell
 ./test.sh
-```
-
-## pre-commit
-
-```shell
-pre-commit autoupdate
-pre-commit run --all-files
 ```
 
 ## Reference

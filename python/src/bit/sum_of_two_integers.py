@@ -1,6 +1,5 @@
 class Solution:
     def getSum(self, a: int, b: int) -> int:
-
         MASK = 0xFFFFF
 
         # we only care about the last few bits since -1000 <= a, b <= 1000

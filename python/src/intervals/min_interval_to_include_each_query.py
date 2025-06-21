@@ -13,8 +13,8 @@ def minInterval(intervals: List[List[int]], queries: List[int]) -> List[int]:
     for q in sorted(queries):
         # we add all intervals data with left index less than or equal to q
         while i < len(intervals) and intervals[i][0] <= q:
-            l, r = intervals[i]
-            heapq.heappush(minHeap, (r - l + 1, r))
+            left, right = intervals[i]
+            heapq.heappush(minHeap, (right - left + 1, right))
             i += 1
         # let's pop out the invalid values whose right value is less than q
         while minHeap and minHeap[0][1] < q:

@@ -4,7 +4,6 @@ Find minimum number of insertion needed to make a string Palindrome
 
 
 def min_insertion(s: str, n: int) -> int:
-
     # know what the table tries to represent
     # table[i][j] stores min number of insertion need for s[i:j+1]
     table = [[0] * n for _ in range(n)]

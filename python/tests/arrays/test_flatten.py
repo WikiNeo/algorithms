@@ -4,9 +4,7 @@ from src.arrays import flatten, flatten_iter
 
 
 class TestFlatten(unittest.TestCase):
-
     def test_flatten(self):
-
         nested_list = [2, 1, [3, [4, 5], 6], 7, [8]]
         flattened = flatten(nested_list)
         self.assertEqual(flattened, [2, 1, 3, 4, 5, 6, 7, 8])
@@ -20,7 +18,6 @@ class TestFlatten(unittest.TestCase):
         self.assertEqual(flattened, [8])
 
     def test_flatten_iter(self):
-
         nested_list = [2, 1, [3, [4, 5], 6], 7, [8]]
         flattened = flatten_iter(nested_list)
         self.assertEqual(next(flattened), 2)

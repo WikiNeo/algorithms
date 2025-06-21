@@ -3,7 +3,6 @@ from src.dp.cut_rod import cut_rod_bottom_up, cut_rod_top_down
 
 
 class TestCutRod(unittest.TestCase):
-
     def setUp(self):
         self.length_to_profit = {
             1: 1,

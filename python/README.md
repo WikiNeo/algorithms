@@ -21,7 +21,7 @@ uv sync
 ## Test
 
 ```shell
-./test.sh
+python -m unittest -v tests/*/*.py
 ```
 
 ## Reference

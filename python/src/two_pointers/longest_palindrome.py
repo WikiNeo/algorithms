@@ -19,81 +19,170 @@ Output: "bb"
 - 1 <= s.length <= 1000
 - s consist of only digits and English letters.
 
-## Thoughts
+## Solutions
 
-- There are two ways we can check if a substring is palindromic, from middle or from both end
-- Note the length of the palindrome can be ood or even
+### Solution 1: Expand Around Center (Current)
+For each position in the string, expand outward to find palindromes:
+- Odd-length palindromes: center at a single character
+- Even-length palindromes: center between two characters
+
+Time Complexity: O(n²)
+Space Complexity: O(1)
+
+### Solution 2: Manacher's Algorithm (Optimized)
+Uses dynamic programming with palindrome mirroring to avoid redundant checks.
+- Preprocesses string with separators to handle odd/even uniformly
+- Uses previously computed palindrome lengths to skip checks
+
+Time Complexity: O(n)
+Space Complexity: O(n)
 """
 
 
 def longest_palindrome(s: str) -> str:
-    res = ""
-    res_len = 0
-
-    # odd case
-    for i in range(len(s)):
-        left, right = i, i
-
+    """
+    Find the longest palindromic substring using expand-around-center approach.
+    
+    Args:
+        s: Input string
+        
+    Returns:
+        The longest palindromic substring
+    """
+    if not s:
+        return ""
+    
+    start = 0
+    max_length = 0
+    
+    def expand_around_center(left: int, right: int) -> tuple[int, int]:
+        """
+        Expand around center and return the longest palindrome boundaries.
+        
+        Args:
+            left: Left boundary index
+            right: Right boundary index
+            
+        Returns:
+            Tuple of (start_index, length) of the longest palindrome found
+        """
         while left >= 0 and right < len(s) and s[left] == s[right]:
-            cur_len = right - left + 1
-            if cur_len > res_len:
-                res_len = cur_len
-                res = s[left : right + 1]
             left -= 1
             right += 1
-
-    # even case
+        # After the loop, left and right are one step beyond the palindrome
+        # So the palindrome is from left+1 to right-1
+        return left + 1, right - left - 1
+    
     for i in range(len(s)):
-        left, right = i, i + 1
+        # Check for odd-length palindromes (center at i)
+        left, length = expand_around_center(i, i)
+        if length > max_length:
+            start = left
+            max_length = length
+        
+        # Check for even-length palindromes (center between i and i+1)
+        left, length = expand_around_center(i, i + 1)
+        if length > max_length:
+            start = left
+            max_length = length
+    
+    return s[start:start + max_length]
 
-        while left >= 0 and right < len(s) and s[left] == s[right]:
-            cur_len = right - left + 1
-            if cur_len > res_len:
-                res_len = cur_len
-                res = s[left : right + 1]
-            left -= 1
-            right += 1
 
-    return res
+def longest_palindrome_manacher(s: str) -> str:
+    """
+    Find the longest palindromic substring using Manacher's Algorithm.
+    
+    This is the optimal solution with O(n) time complexity.
+    
+    Args:
+        s: Input string
+        
+    Returns:
+        The longest palindromic substring
+    """
+    if not s:
+        return ""
+    
+    # Preprocess: insert separators to handle odd/even uniformly
+    # e.g., "abc" -> "^#a#b#c#$"
+    processed = ['^']
+    for char in s:
+        processed.append('#')
+        processed.append(char)
+    processed.append('#')
+    processed.append('$')
+    processed_str = ''.join(processed)
+    
+    n = len(processed_str)
+    # P[i] stores the radius of the palindrome centered at i
+    P = [0] * n
+    center = 0  # Center of the rightmost palindrome found so far
+    right = 0   # Right boundary of the rightmost palindrome
+    
+    max_len = 0
+    center_index = 0
+    
+    for i in range(1, n - 1):  # Skip ^ and $
+        # Mirror index: if i is within the current rightmost palindrome,
+        # we can use the mirror to get a starting value
+        if i < right:
+            mirror = 2 * center - i
+            P[i] = min(right - i, P[mirror])
+        
+        # Try to expand around center i
+        while processed_str[i + (1 + P[i])] == processed_str[i - (1 + P[i])]:
+            P[i] += 1
+        
+        # Update center and right if we found a palindrome extending beyond right
+        if i + P[i] > right:
+            center = i
+            right = i + P[i]
+        
+        # Track the longest palindrome
+        if P[i] > max_len:
+            max_len = P[i]
+            center_index = i
+    
+    # Extract the original substring
+    # center_index is in processed string, convert back to original
+    start = (center_index - max_len) // 2
+    return s[start:start + max_len]
 
 
-def longest_palindrome2(s: str) -> str:
-    LEN = len(s)
-    if LEN == 1:
-        return s[0]
-
-    odd_max_len = 1
-    odd_res = s[0]
-    for i in range(1, LEN):
-        # odd length case
-        left, right = i, i
-        while left >= 0 and right < LEN:
-            if s[left] != s[right]:
-                break
-            else:
-                cur_len = right - left + 1
-                if cur_len > odd_max_len:
-                    odd_max_len = cur_len
-                    odd_res = s[left : right + 1]
-            left -= 1
-            right += 1
-
-    even_max_len = 1
-    even_res = s[0]
-    for i in range(1, LEN):
-        left, right = i - 1, i
-        while left >= 0 and right < LEN:
-            if s[left] != s[right]:
-                break
-            else:
-                cur_len = right - left + 1
-                if cur_len > even_max_len:
-                    even_max_len = cur_len
-                    even_res = s[left : right + 1]
-            left -= 1
-            right += 1
-
-    if odd_max_len > even_max_len:
-        return odd_res
+if __name__ == "__main__":
+    # Test cases for both solutions
+    test_cases = [
+        "babad",
+        "cbbd",
+        "a",
+        "ac",
+        "racecar",
+        "noon",
+        "abcdef",
+    ]
+    
+    print("Testing Expand Around Center (O(n²)):")
+    for test in test_cases:
+        result = longest_palindrome(test)
+        print(f"  '{test}' -> '{result}'")
+    
+    print("\nTesting Manacher's Algorithm (O(n)):")
+    for test in test_cases:
+        result = longest_palindrome_manacher(test)
+        print(f"  '{test}' -> '{result}'")
+    
+    # Verify both solutions give the same results
+    print("\nVerifying both solutions match:")
+    all_match = True
+    for test in test_cases:
+        result1 = longest_palindrome(test)
+        result2 = longest_palindrome_manacher(test)
+        if len(result1) != len(result2):
+            print(f"  MISMATCH for '{test}': '{result1}' vs '{result2}'")
+            all_match = False
+    
+    if all_match:
+        print("  ✓ All solutions match!")
     else:
-        return even_res
+        print("  ✗ Some solutions don't match")
